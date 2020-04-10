@@ -8,7 +8,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #1b98f8;
+  color: black;
+  cursor: pointer
 }
 
 /*
