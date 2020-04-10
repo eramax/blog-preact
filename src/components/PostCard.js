@@ -8,7 +8,7 @@ const PostCard = props => {
           height="64"
           alt="Eric Ferraiuolo's avatar"
           className="email-avatar"
-          src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg"
+          src="./assets/bul-1.gif"
         />
       </div>
 

@@ -10,37 +10,17 @@ import "./css/style.css";
 const API = "/assets/index5.json"
 
 export default class App extends Component {
-  changeCategory(catId) {
-    this.setState({ selectedCategory: catId });
-  }
   constructor(props) {
     super(props);
     this.state = {
       categories: null,
       posts: null,
-      selectedCategory: 0
+      selectedCategory: 0,
+      selectedPost: 0
     };
-    this.changeCategory = this.changeCategory.bind(this);
-  }
+    this.selectCategory = this.selectCategory.bind(this);
+    this.selectPost = this.selectPost.bind(this);
 
-  getselectedPosts(catId) {
-    let list = []
-    if (this.state.categories != null) {
-      this.state.categories[catId].posts.forEach(it => {
-        if (this.state.posts[it])
-          list.push(<PostCard key={it} title={this.state.posts[it].title} date={this.state.posts[it].date} />)
-      });
-    }
-    return list;
-  }
-  getCategories(selectedCat) {
-    let list = []
-    if (this.state.categories != null) {
-      this.state.categories.forEach((it, k) =>
-        list.push(<CategoryCard cat={it} onSelect={() => this.changeCategory(k)} />)
-      );
-    }
-    return list;
   }
   componentDidMount() {
     let currentComponent = this;
@@ -58,6 +38,32 @@ export default class App extends Component {
         console.log(error);
       });
   }
+  selectCategory(catId) {
+    this.setState({ selectedCategory: catId });
+  }
+  selectPost(postId) {
+    this.setState({ selectedPost: postId });
+  }
+  getselectedPosts(catId) {
+    let list = []
+    if (this.state.categories != null) {
+      this.state.categories[catId].posts.forEach(it => {
+        if (this.state.posts[it])
+          list.push(<PostCard key={it} title={this.state.posts[it].title} date={this.state.posts[it].date} />)
+      });
+    }
+    return list;
+  }
+  getCategories(selectedCat) {
+    let list = []
+    if (this.state.categories != null) {
+      this.state.categories.forEach((it, k) =>
+        list.push(<CategoryCard cat={it} onSelect={() => this.selectCategory(k)} selected={k==selectedCat} />)
+      );
+    }
+    return list;
+  }
+
 
   render() {
     if (this.state.categories == null) return "Loading..."; else
@@ -86,4 +92,3 @@ export default class App extends Component {
         </div>);
   }
 }
-
