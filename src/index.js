@@ -1,13 +1,15 @@
 import { Component } from "preact";
+import { Router } from 'preact-router';
 import axios from "axios";
 import CategoryCard from "./components/CategoryCard";
 import PostCard from "./components/PostCard";
-import Main from "./components/Main";
+import Post from "./components/Post";
 
 import "purecss/build/pure-min.css";
 import "./css/style.css";
+import defaultImage from "./assets/bul-1.gif" 
 
-const API = "/assets/index5.json"
+const API = "/assets/"
 
 export default class App extends Component {
   constructor(props) {
@@ -16,7 +18,7 @@ export default class App extends Component {
       categories: null,
       posts: null,
       selectedCategory: 0,
-      selectedPost: 0
+      selectedPost: 0,
     };
     this.selectCategory = this.selectCategory.bind(this);
     this.selectPost = this.selectPost.bind(this);
@@ -25,7 +27,7 @@ export default class App extends Component {
   componentDidMount() {
     let currentComponent = this;
     axios
-      .get(API, { timeout: 30000 })
+      .get(API+"index.json", { timeout: 30000 })
       .then(function (data) {
         if ("data" in data && "categories" in data.data && "posts" in data.data) {
           currentComponent.setState({
@@ -53,6 +55,8 @@ export default class App extends Component {
             title={this.state.posts[it].title} 
             date={this.state.posts[it].date}
             onSelect={() => this.selectPost(k)}
+            img={defaultImage}
+            url={it}
             selected={k==postId} />)
       });
     }
@@ -69,6 +73,9 @@ export default class App extends Component {
     }
     return list;
   }
+	handleRoute = e => {
+		this.currentUrl = e.url;
+	};
 
   render() {
       return (
@@ -91,7 +98,10 @@ export default class App extends Component {
                 this.getselectedPosts(this.state.selectedCategory, this.state.selectedPost)
               }
             </div>
-            <Main />
+            <Router onChange={this.handleRoute}>
+					    <Post path="/" />
+					    <Post path="/:slug" api={API} />
+				    </Router>
           </div>
         </div>);
   }

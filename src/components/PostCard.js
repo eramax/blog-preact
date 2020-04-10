@@ -1,16 +1,16 @@
-import defaultImage from "../assets/bul-1.gif" 
+import { Link } from 'preact-router/match';
+
 const PostCard = props => {
   let d = new Date(props.date);
-  let className = (props.selected)? "email-item pure-g email-item-selected" : "email-item pure-g"
   return (
-    <a onClick={props.onSelect} className={className}>
+    <Link activeClassName="email-item-selected" href={"/" +props.url} className="email-item pure-g">
       <div className="pure-u">
         <img
           width="64"
           height="64"
           alt={props.title}
           className="email-avatar"
-          src={defaultImage}
+          src={props.img}
         />
       </div>
 
@@ -18,7 +18,7 @@ const PostCard = props => {
         <h5 className="email-name">{d.toDateString()}</h5>
         <h4 className="email-subject">{props.title}</h4>
       </div>
-    </a>
+    </Link>
   );
 };
 
