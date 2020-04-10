@@ -1,6 +1,5 @@
 const CategoryItem = props => {
-  console.log(props)
-  let className = (props.selected)? "pure-menu-item email-item-selected" : "pure-menu-item"
+  let className = (props.selected)? "pure-menu-item cat-item-selected" : "pure-menu-item"
     return (
         <li className={className}>
         <a className="pure-menu-link" onClick={props.onSelect}>

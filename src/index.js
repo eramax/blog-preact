@@ -39,17 +39,21 @@ export default class App extends Component {
       });
   }
   selectCategory(catId) {
-    this.setState({ selectedCategory: catId });
+    this.setState({ selectedCategory: catId , selectedPost: 0});
   }
   selectPost(postId) {
     this.setState({ selectedPost: postId });
   }
-  getselectedPosts(catId) {
+  getselectedPosts(catId, postId) {
     let list = []
     if (this.state.categories != null) {
-      this.state.categories[catId].posts.forEach(it => {
+      this.state.categories[catId].posts.forEach((it,k) => {
         if (this.state.posts[it])
-          list.push(<PostCard key={it} title={this.state.posts[it].title} date={this.state.posts[it].date} />)
+          list.push(<PostCard key={it} 
+            title={this.state.posts[it].title} 
+            date={this.state.posts[it].date}
+            onSelect={() => this.selectPost(k)}
+            selected={k==postId} />)
       });
     }
     return list;
@@ -58,12 +62,13 @@ export default class App extends Component {
     let list = []
     if (this.state.categories != null) {
       this.state.categories.forEach((it, k) =>
-        list.push(<CategoryCard cat={it} onSelect={() => this.selectCategory(k)} selected={k==selectedCat} />)
+        list.push(<CategoryCard cat={it} 
+          onSelect={() => this.selectCategory(k)} 
+          selected={k==selectedCat} />)
       );
     }
     return list;
   }
-
 
   render() {
     if (this.state.categories == null) return "Loading..."; else
@@ -84,7 +89,7 @@ export default class App extends Component {
             </div>
             <div id="list" className="pure-u-1">
               {
-                this.getselectedPosts(this.state.selectedCategory)
+                this.getselectedPosts(this.state.selectedCategory, this.state.selectedPost)
               }
             </div>
             <Main />

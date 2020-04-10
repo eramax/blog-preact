@@ -152,8 +152,13 @@ a {
 }
 
 .email-item-selected {
+  background: #d3efe1;
+}
+.cat-item-selected {
   background: #285d53;
 }
+
+
 .email-item-unread {
   border-left: 6px solid #1b98f8;
 }
