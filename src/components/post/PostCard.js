@@ -1,5 +1,5 @@
 const PostCard = props => {
-  let d = new Date(props.post.date);
+  let d = new Date(props.date);
   return (
     <div className="email-item email-item-unread pure-g">
       <div className="pure-u">
@@ -14,7 +14,7 @@ const PostCard = props => {
 
       <div className="pure-u-3-4">
         <h5 className="email-name">{d.toDateString()}</h5>
-        <h4 className="email-subject">{props.post.title}</h4>
+        <h4 className="email-subject">{props.title}</h4>
       </div>
     </div>
   );
