@@ -1,3 +1,4 @@
+import defaultImage from "../assets/bul-1.gif" 
 const PostCard = props => {
   let d = new Date(props.date);
   let className = (props.selected)? "email-item pure-g email-item-selected" : "email-item pure-g"
@@ -9,7 +10,7 @@ const PostCard = props => {
           height="64"
           alt={props.title}
           className="email-avatar"
-          src="./assets/bul-1.gif"
+          src={defaultImage}
         />
       </div>
 
