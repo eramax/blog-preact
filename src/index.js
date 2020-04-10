@@ -1,45 +1,89 @@
-import Layout from "./components/layout/Layout";
 import { Component } from "preact";
 import axios from "axios";
-import "purecss/build/pure-min.css";
-import "./css/email.css";
+import CategoryCard from "./components/CategoryCard";
+import PostCard from "./components/PostCard";
+import Main from "./components/Main";
 
-const API="/assets/index5.json"
+import "purecss/build/pure-min.css";
+import "./css/style.css";
+
+const API = "/assets/index5.json"
 
 export default class App extends Component {
+  changeCategory(catId) {
+    this.setState({ selectedCategory: catId });
+  }
   constructor(props) {
     super(props);
     this.state = {
       categories: null,
-      posts: null
+      posts: null,
+      selectedCategory: 0
     };
+    this.changeCategory = this.changeCategory.bind(this);
+  }
+
+  getselectedPosts(catId) {
+    let list = []
+    if (this.state.categories != null) {
+      this.state.categories[catId].posts.forEach(it => {
+        if (this.state.posts[it])
+          list.push(<PostCard key={it} title={this.state.posts[it].title} date={this.state.posts[it].date} />)
+      });
+    }
+    return list;
+  }
+  getCategories(selectedCat) {
+    let list = []
+    if (this.state.categories != null) {
+      this.state.categories.forEach((it, k) =>
+        list.push(<CategoryCard cat={it} onSelect={() => this.changeCategory(k)} />)
+      );
+    }
+    return list;
   }
   componentDidMount() {
     let currentComponent = this;
     axios
       .get(API, { timeout: 30000 })
-      .then(function(data) {
-        if ("data" in data && "categories" in data.data  && "posts" in data.data)
-        {
-            currentComponent.setState({
-              categories: data.data.categories,
-              posts: data.data.posts});
-        } 
+      .then(function (data) {
+        if ("data" in data && "categories" in data.data && "posts" in data.data) {
+          currentComponent.setState({
+            categories: data.data.categories,
+            posts: data.data.posts
+          });
+        }
       })
-      .catch(function(error) {
+      .catch(function (error) {
         console.log(error);
       });
-  }  
+  }
 
   render() {
     if (this.state.categories == null) return "Loading..."; else
       return (
-        <div>
-          <div class="list">
-            <Layout categories={this.state.categories} posts={this.state.posts} />
+        <div class="list">
+          <div id="layout" className="content pure-g">
+            <div id="nav" className="pure-u">
+              <a className="nav-menu-button">Menu</a>
+              <div className="nav-inner">
+                <div className="pure-menu">
+                  <ul className="pure-menu-list">
+                    {
+                      this.getCategories(this.state.selectedCategory)
+                    }
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="list" className="pure-u-1">
+              {
+                this.getselectedPosts(this.state.selectedCategory)
+              }
+            </div>
+            <Main />
           </div>
-        </div>
-      );
+        </div>);
   }
 }
 
