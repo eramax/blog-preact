@@ -71,7 +71,6 @@ export default class App extends Component {
   }
 
   render() {
-    if (this.state.categories == null) return "Loading..."; else
       return (
         <div class="list">
           <div id="layout" className="content pure-g">
