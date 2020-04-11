@@ -41,7 +41,8 @@ export default class App extends Component {
       });
   }
   selectCategory(cat) {
-    this.setState({ selectedCategory: cat, root:false });
+    if(cat.includes(this.state.selectedCategory)) this.setState({ root:false });
+    else this.setState({ selectedCategory: cat[0], root:false });
   }
   selectPost(post) {
     this.setState({ selectedPost: post ,root:false});
@@ -74,13 +75,13 @@ export default class App extends Component {
       if(this.state.root)
       {
           catId = Object.keys(this.state.categories)[0]
-          this.selectCategory(catId)
+          this.selectCategory([...catId])
       }
       Object.keys(this.state.categories).forEach(it =>
         {
           list.push(<CategoryCard name={it} 
             count={this.state.categories[it].posts.length}
-            onSelect={() => this.selectCategory(it)} 
+            onSelect={() => this.selectCategory([...it])} 
             selected={it==catId} />)
         }
       );

@@ -119,7 +119,7 @@
         },
         "cloud": {
             "posts": [
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "comparing-ingress-controllers-for-kubernetes",
@@ -196,7 +196,7 @@
         "deployment": {
             "posts": [
                 "install-rancher-on-k3s-using-kubectl-yaml",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "how-to-use-traefik-reverse-proxy",
@@ -296,7 +296,7 @@
         },
         "DevOps": {
             "posts": [
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "how-to-use-traefik-reverse-proxy",
                 "traefik-reverse-proxy-with-letsencrypt-for-docker-media-server",
                 "kubernetes-force-pod-to-be-deleted-shortcut",
@@ -338,7 +338,7 @@
         "Docker": {
             "posts": [
                 "install-rancher-on-k3s-using-kubectl-yaml",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "how-to-use-traefik-reverse-proxy",
@@ -495,7 +495,7 @@
         "Kubernetes": {
             "posts": [
                 "install-rancher-on-k3s-using-kubectl-yaml",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "how-to-use-traefik-reverse-proxy",
@@ -517,7 +517,7 @@
             "posts": [
                 "install-rancher-on-k3s-using-kubectl-yaml",
                 "send-form-data-with-files-using-curl",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "how-to-use-traefik-reverse-proxy",
@@ -855,7 +855,7 @@
             "posts": [
                 "install-rancher-on-k3s-using-kubectl-yaml",
                 "send-form-data-with-files-using-curl",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s",
                 "k9s-cli",
                 "how-to-use-traefik-reverse-proxy",
@@ -910,7 +910,7 @@
                 "brotli-vs-gzip-compression-how-we-improved-our-latency-by-37",
                 "graphql-on-wordpress",
                 "easy-and-simple-discord-webhook-tutorial",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "cockpit-web-based-interface-for-your-servers",
                 "open-source-continuous-delivery-and-release-automation-server-gocd",
                 "the-mediator-pattern-in-net-core",
@@ -955,7 +955,7 @@
                 "brotli-vs-gzip-compression-how-we-improved-our-latency-by-37",
                 "graphql-on-wordpress",
                 "easy-and-simple-discord-webhook-tutorial",
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "running-ci-tests-in-kubernetes-through-github-actions",
                 "cockpit-web-based-interface-for-your-servers",
                 "how-to-install-vmware-workstation-on-arch-linux-manjaro",
@@ -1008,7 +1008,7 @@
         },
         "VM": {
             "posts": [
-                "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio",
+                "edge-focused-compact-kubernetes-with-micropaas",
                 "install-k3s-and-getting-the-kubeconfig",
                 "running-ci-tests-in-kubernetes-through-github-actions",
                 "deploy-kubernetes-cluster-with-multipass",
@@ -1170,7 +1170,7 @@
             "date": "2020-04-05T18:52:25",
             "featuredImage": null
         },
-        "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio": {
+        "edge-focused-compact-kubernetes-with-micropaas": {
             "title": "Edge-Focused Compact Kubernetes with MicroPaaS (\u03bcPaaS) \u2014 k3s/k3OS and Rio",
             "date": "2020-04-05T13:30:36",
             "featuredImage": null
