@@ -227,7 +227,6 @@ a {
   /* Show the menu items on the larger screen */
   .nav-inner {
     display: block;
-    padding: 2em 0;
   }
 
   /* Hide the "Menu" button on larger screens */
@@ -276,3 +275,15 @@ a {
 }
 
 
+.brand {
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+.brandme{
+  color: white;;
+}
+.brand-cont {
+  margin-left: 20px;
+}

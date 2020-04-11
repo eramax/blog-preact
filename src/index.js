@@ -95,9 +95,18 @@ export default class App extends Component {
         <div class="list">
           <div id="layout" className="content pure-g">
             <div id="nav" className="pure-u">
-              <a className="nav-menu-button">...</a>
               <div className="nav-inner">
                 <div className="pure-menu">
+                <div className="pure-u brand-cont">
+                  <img
+                    width="150"
+                    height="150"
+                    className="brand"
+                    alt="Ahmed Essam"
+                    src="./assets/me0.jpeg"
+                  />
+                  <h2 className="brandme">AHMED ESSAM</h2>
+                </div>
                   <ul className="pure-menu-list">
                     {
                       this.getCategories()
