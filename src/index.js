@@ -41,8 +41,11 @@ export default class App extends Component {
       });
   }
   selectCategory(cat) {
-    if(cat.includes(this.state.selectedCategory)) this.setState({ root:false });
-    else this.setState({ selectedCategory: cat[0], root:false });
+    if(cat != null && cat != undefined)
+    {
+      if(cat.includes(this.state.selectedCategory)) this.setState({ root:false });
+      else this.setState({ selectedCategory: cat[0], root:false });
+    }
   }
   selectPost(post) {
     this.setState({ selectedPost: post ,root:false});
