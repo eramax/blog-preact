@@ -55,9 +55,13 @@ export default class App extends Component {
   }
   getPosts() {
     let list = []
-    if(this.state.categories != null && this.state.selectedCategory != null )
+    if(this.state.categories != null && 
+       this.state.categories != undefined &&
+       this.state.selectedCategory != null &&
+       this.state.selectedCategory != undefined &&
+       this.state.categories[this.state.selectedCategory]['posts'] != undefined )
     {
-        this.state.categories[this.state.selectedCategory].posts.forEach((it,k) => {
+        this.state.categories[this.state.selectedCategory]['posts'].forEach((it,k) => {
           const post = this.state.posts[it]
           if (post)
             list.push(<PostCard key={it} 
