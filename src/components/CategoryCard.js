@@ -3,7 +3,7 @@ const CategoryItem = props => {
     return (
         <li className={className}>
         <a className="pure-menu-link" onClick={props.onSelect}>
-        {props.cat.name} <span className="email-count">({props.cat.count})</span>
+        {props.name} <span className="email-count">({props.count})</span>
         </a>
       </li>
     );
