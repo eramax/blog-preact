@@ -1247,1361 +1247,1700 @@
         }
     ],
     "posts": {
-        "733": {
-            "title": "top alternatives",
-            "date": "2018-08-13T00:28:50"
-        },
-        "787": {
-            "title": "coder.com new cloud IDE",
-            "date": "2018-08-25T15:42:43"
-        },
-        "810": {
-            "title": "How to Install Deepin Desktop On Ubuntu 18.04",
-            "date": "2018-09-01T15:32:23"
-        },
-        "891": {
-            "title": "Project Management tools 2018",
-            "date": "2018-09-11T10:57:11"
-        },
-        "1086": {
-            "title": "Create chrome extension",
-            "date": "2018-11-04T15:29:19"
-        },
         "install-rancher-on-k3s-using-kubectl-yaml": {
             "title": "Install rancher on k3s using kubectl yaml",
-            "date": "2020-04-07T18:22:47"
+            "date": "2020-04-07T18:22:47",
+            "featuredImage": null
         },
         "easy-and-simple-discord-webhook-tutorial": {
             "title": "Easy and Simple Discord Webhook Tutorial",
-            "date": "2020-04-05T19:23:31"
+            "date": "2020-04-05T19:23:31",
+            "featuredImage": null
         },
         "send-form-data-with-files-using-curl": {
             "title": "Send form data with files using curl",
-            "date": "2020-04-05T18:52:25"
+            "date": "2020-04-05T18:52:25",
+            "featuredImage": null
         },
         "edge-focused-compact-kubernetes-with-micropaas-%ce%bcpaas-k3s-k3os-and-rio": {
-            "title": "Edge-Focused Compact Kubernetes with MicroPaaS (μPaaS) — k3s/k3OS and Rio",
-            "date": "2020-04-05T13:30:36"
+            "title": "Edge-Focused Compact Kubernetes with MicroPaaS (\u03bcPaaS) \u2014 k3s/k3OS and Rio",
+            "date": "2020-04-05T13:30:36",
+            "featuredImage": null
         },
         "host-a-web-app-with-letsencrypt-with-traefik-and-cert-manager-on-k3s": {
             "title": "Host a web app with letsencrypt with traefik and cert manager on k3s",
-            "date": "2020-04-01T21:38:32"
+            "date": "2020-04-01T21:38:32",
+            "featuredImage": null
         },
         "k9s-cli": {
             "title": "K9s  CLI",
-            "date": "2020-04-01T18:17:15"
+            "date": "2020-04-01T18:17:15",
+            "featuredImage": null
         },
         "how-to-use-traefik-reverse-proxy": {
             "title": "How to use Traefik reverse proxy",
-            "date": "2020-04-01T17:38:55"
+            "date": "2020-04-01T17:38:55",
+            "featuredImage": null
         },
         "fizzbuzz-in-c-8": {
             "title": "FizzBuzz in C# 8",
-            "date": "2020-04-01T16:24:03"
+            "date": "2020-04-01T16:24:03",
+            "featuredImage": null
         },
         "comparing-ingress-controllers-for-kubernetes": {
             "title": "Comparing Ingress controllers for Kubernetes",
-            "date": "2020-03-31T22:45:59"
+            "date": "2020-03-31T22:45:59",
+            "featuredImage": null
         },
         "kubernetes-production-best-practices": {
             "title": "Kubernetes production best practices",
-            "date": "2020-03-31T22:43:29"
+            "date": "2020-03-31T22:43:29",
+            "featuredImage": null
         },
         "packages-search-for-linux-and-unix": {
             "title": "Packages Search for Linux and Unix",
-            "date": "2020-03-31T15:17:21"
+            "date": "2020-03-31T15:17:21",
+            "featuredImage": null
         },
         "k8s-install-on-photon-os": {
             "title": "K8S install on Photon OS",
-            "date": "2020-03-30T22:52:36"
+            "date": "2020-03-30T22:52:36",
+            "featuredImage": null
         },
         "zsh-auto-suggestions": {
             "title": "Zsh Auto Suggestions",
-            "date": "2020-03-30T22:17:11"
+            "date": "2020-03-30T22:17:11",
+            "featuredImage": null
         },
         "traefik-reverse-proxy-with-letsencrypt-for-docker-media-server": {
             "title": "Traefik Reverse Proxy with LetsEncrypt for Docker Media Server",
-            "date": "2020-03-30T15:33:39"
+            "date": "2020-03-30T15:33:39",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/03/traefik-architecture.png"
         },
         "kubernetes-force-pod-to-be-deleted-shortcut": {
             "title": "Kubernetes Force pod to be deleted shortcut",
-            "date": "2020-03-29T17:43:47"
+            "date": "2020-03-29T17:43:47",
+            "featuredImage": null
         },
         "install-k3s-and-getting-the-kubeconfig": {
             "title": "Install k3s and get the kubeconfig",
-            "date": "2020-03-29T10:27:54"
+            "date": "2020-03-29T10:27:54",
+            "featuredImage": null
         },
         "ssh-passwordless-one-line": {
             "title": "SSH Passwordless one line",
-            "date": "2020-03-29T09:38:36"
+            "date": "2020-03-29T09:38:36",
+            "featuredImage": null
         },
         "nginx-varnish-web-performance-tips": {
             "title": "NGINX + Varnish | Web Performance Tips",
-            "date": "2020-03-24T11:16:41"
+            "date": "2020-03-24T11:16:41",
+            "featuredImage": null
         },
         "upgrade-your-net-console-app-experience": {
             "title": "Upgrade Your .NET Console App Experience",
-            "date": "2020-03-23T22:46:00"
+            "date": "2020-03-23T22:46:00",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/03/upgrade_dotnet_console_experience.jpg"
         },
         "asp-net-core-api-analyzer": {
             "title": "ASP.NET Core API Analyzer",
-            "date": "2020-03-23T15:50:52"
+            "date": "2020-03-23T15:50:52",
+            "featuredImage": null
         },
         "ncurses-disk-usage": {
             "title": "NCurses Disk Usage",
-            "date": "2020-03-23T15:25:01"
+            "date": "2020-03-23T15:25:01",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/03/Linux-command-to-check-disk-space.png"
         },
         "how-to-upgrade-ubuntu-to-20-04-lts-focal-fossa": {
             "title": "How To Upgrade Ubuntu To 20.04 LTS Focal Fossa",
-            "date": "2020-03-23T12:24:38"
+            "date": "2020-03-23T12:24:38",
+            "featuredImage": null
         },
         "running-ci-tests-in-kubernetes-through-github-actions": {
             "title": "Running CI tests in Kubernetes through Github Actions",
-            "date": "2020-03-23T10:36:56"
+            "date": "2020-03-23T10:36:56",
+            "featuredImage": null
         },
         "deploy-kubernetes-cluster-with-multipass": {
             "title": "Deploy kubernetes cluster with multipass",
-            "date": "2020-03-22T20:48:38"
+            "date": "2020-03-22T20:48:38",
+            "featuredImage": null
         },
         "create-an-always-free-compute-vm-on-the-oracle-cloud": {
             "title": "CREATE AN ALWAYS FREE COMPUTE VM ON THE ORACLE CLOUD",
-            "date": "2020-03-22T15:51:40"
+            "date": "2020-03-22T15:51:40",
+            "featuredImage": null
         },
         "install-kubernetes-dashboard-on-microk8s-on-vps-or-barametal-servers-without-proxy": {
             "title": "Install Kubernetes dashboard on MicroK8s on vps or barametal servers without proxy",
-            "date": "2020-03-16T02:07:53"
+            "date": "2020-03-16T02:07:53",
+            "featuredImage": null
         },
         "how-to-redirect-an-incoming-connection-to-a-different-ip-address-on-a-specific-port-using-iptables": {
             "title": "How to redirect an incoming connection to a different IP address on a specific port using IPtables",
-            "date": "2020-03-14T09:52:22"
+            "date": "2020-03-14T09:52:22",
+            "featuredImage": null
         },
         "start-kubernetes-proxy-server-automatically": {
             "title": "Start Kubernetes proxy server automatically",
-            "date": "2020-03-08T15:54:32"
+            "date": "2020-03-08T15:54:32",
+            "featuredImage": null
         },
         "kubectl-to-a-microk8s-inside-virtualbox": {
             "title": "Kubectl to a microK8s inside VirtualBox",
-            "date": "2020-03-07T22:39:10"
+            "date": "2020-03-07T22:39:10",
+            "featuredImage": null
         },
         "best-tmux-comfig": {
             "title": "best tmux comfig",
-            "date": "2020-03-07T22:00:13"
+            "date": "2020-03-07T22:00:13",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/03/2a247942453b404875950162854d2820.jpg"
         },
         "learn-byobu-best-tmux-alternative": {
             "title": "Learn Byobu best tmux alternative",
-            "date": "2020-03-07T20:36:28"
+            "date": "2020-03-07T20:36:28",
+            "featuredImage": null
         },
         "how-to-configure-static-ip-address-on-ubuntu-18-04": {
             "title": "How to Configure Static IP Address on Ubuntu 18.04",
-            "date": "2020-03-07T13:16:52"
+            "date": "2020-03-07T13:16:52",
+            "featuredImage": null
         },
         "ubuntu-core-18-running-in-virtualbox": {
             "title": "Ubuntu Core 18 running in VirtualBox",
-            "date": "2020-03-07T11:59:33"
+            "date": "2020-03-07T11:59:33",
+            "featuredImage": null
         },
         "kube-3-kubernetes-single-node-cluster-using-microk8s": {
             "title": "[ Kube 3 ] Kubernetes single node cluster using microk8s",
-            "date": "2020-02-29T23:55:23"
+            "date": "2020-02-29T23:55:23",
+            "featuredImage": null
         },
         "cockpit-web-based-interface-for-your-servers": {
             "title": "Cockpit, web-based interface for your servers",
-            "date": "2020-02-29T15:38:14"
+            "date": "2020-02-29T15:38:14",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/02/screenshot-storage.png"
         },
         "kvm-qemu-based-windows-10-vm-step-by-step": {
-            "title": "KVM / QEMU based Windows 10 VM - Step by Step",
-            "date": "2020-02-20T23:35:53"
+            "title": "KVM / QEMU based Windows 10 VM &#8211; Step by Step",
+            "date": "2020-02-20T23:35:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2020/02/01_qemu_win_install.jpg"
         },
         "modern-techniques-for-modern-c": {
             "title": "Modern techniques for modern C#",
-            "date": "2020-02-19T22:52:56"
+            "date": "2020-02-19T22:52:56",
+            "featuredImage": null
         },
         "fix-remote-desktop-authentication-error-has-occurred-the-function-requested-is-not-supported": {
             "title": "FIX : Remote Desktop Authentication Error Has Occurred The function requested is not supported",
-            "date": "2019-09-06T13:09:58"
+            "date": "2019-09-06T13:09:58",
+            "featuredImage": null
         },
         "fix-vmware-no-3d-support-is-available-from-the-host-on-linux": {
-            "title": "Fix VMware “No 3D Support is available from the host” on Linux",
-            "date": "2019-08-09T06:10:32"
+            "title": "Fix VMware &#8220;No 3D Support is available from the host&#8221; on Linux",
+            "date": "2019-08-09T06:10:32",
+            "featuredImage": null
         },
         "how-to-install-vmware-workstation-on-arch-linux-manjaro": {
             "title": "How to Install VMware Workstation on Arch Linux / Manjaro",
-            "date": "2019-08-07T12:10:44"
+            "date": "2019-08-07T12:10:44",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/08/install-vmware-workstation-arch-linux-manjaro-11-1024x543.png"
         },
         "high-performance-load-balancing-with-nginx-part-1-of-3": {
             "title": "High-Performance Load Balancing with NGINX (Part 1 of 3)",
-            "date": "2019-07-20T21:07:31"
+            "date": "2019-07-20T21:07:31",
+            "featuredImage": null
         },
         "asp-net-core-supporting-multiple-authorization-route-branching": {
             "title": "ASP.NET Core: Supporting multiple Authorization, route branching",
-            "date": "2019-07-14T10:58:14"
+            "date": "2019-07-14T10:58:14",
+            "featuredImage": null
         },
         "asp-net-core-restful-web-api-versioning-made-easy": {
             "title": "ASP.NET Core RESTful Web API versioning made easy",
-            "date": "2019-07-13T14:21:02"
+            "date": "2019-07-13T14:21:02",
+            "featuredImage": null
         },
         "linq-to-csv": {
             "title": "Linq To CSV",
-            "date": "2019-07-10T12:55:49"
+            "date": "2019-07-10T12:55:49",
+            "featuredImage": null
         },
         "fix-of-the-breakpoint-will-not-currently-be-hit-no-symbols-have-been-loaded-for-this-document": {
-            "title": "Fix of “The breakpoint will not currently be hit. No symbols have been loaded for this document.”",
-            "date": "2019-07-07T12:31:03"
+            "title": "Fix of &#8220;The breakpoint will not currently be hit. No symbols have been loaded for this document.\u201d",
+            "date": "2019-07-07T12:31:03",
+            "featuredImage": null
         },
         "lazydocker-docker-cli-dashboard": {
             "title": "Lazydocker docker cli dashboard",
-            "date": "2019-06-30T15:44:15"
+            "date": "2019-06-30T15:44:15",
+            "featuredImage": null
         },
         "how-to-get-an-in-depth-insight-of-your-code-with-ndepend-static-analysis-tool": {
             "title": "How To Get An In Depth Insight Of Your Code With NDepend static analysis tool",
-            "date": "2019-06-25T11:56:12"
+            "date": "2019-06-25T11:56:12",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/issues.png"
         },
         "azure-architect-expert-study-notes": {
             "title": "Azure Architect Expert Study Notes",
-            "date": "2019-06-25T01:02:04"
+            "date": "2019-06-25T01:02:04",
+            "featuredImage": null
         },
         "map-vs-filter-vs-reduce": {
             "title": "map vs filter vs reduce",
-            "date": "2019-06-25T00:51:26"
+            "date": "2019-06-25T00:51:26",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/07/14EGwsCicbWJeml2aAm714A.gif"
         },
         "open-source-continuous-delivery-and-release-automation-server-gocd": {
             "title": "Open Source Continuous Delivery and Release Automation Server | GoCD",
-            "date": "2019-06-19T16:10:41"
+            "date": "2019-06-19T16:10:41",
+            "featuredImage": null
         },
         "go-for-containerized-microservices-in-azure": {
             "title": "Go for Containerized Microservices in Azure",
-            "date": "2019-06-15T15:41:10"
+            "date": "2019-06-15T15:41:10",
+            "featuredImage": null
         },
         "building-a-bank-with-kubernetes": {
             "title": "Building a Bank with Kubernetes",
-            "date": "2019-06-14T21:42:06"
+            "date": "2019-06-14T21:42:06",
+            "featuredImage": null
         },
         "from-bare-metal-to-kubernetes": {
             "title": "From bare-metal to Kubernetes",
-            "date": "2019-06-04T23:47:14"
+            "date": "2019-06-04T23:47:14",
+            "featuredImage": null
         },
         "algorithm-visualizer": {
             "title": "Algorithm Visualizer",
-            "date": "2019-06-04T18:23:27"
+            "date": "2019-06-04T18:23:27",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/screenshot.png"
         },
         "tinypico": {
             "title": "TinyPICO",
-            "date": "2019-06-02T21:10:19"
+            "date": "2019-06-02T21:10:19",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/tinypico-size-battery-no-text_jpg_project-body.jpg"
         },
         "how-to-configure-remote-access-and-connect-to-a-remote-ms-sql-server-instance": {
             "title": "How to configure remote access and connect to a remote MS SQL Server instance",
-            "date": "2019-06-02T16:45:51"
+            "date": "2019-06-02T16:45:51",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/download.png"
         },
         "freshping-reliable-website-uptime-monitoring": {
             "title": "Freshping Reliable website uptime monitoring",
-            "date": "2019-06-01T17:59:29"
+            "date": "2019-06-01T17:59:29",
+            "featuredImage": null
         },
         "deploy-dotnet-core-mvc-on-ubuntu-with-supervisor": {
             "title": "Deploy dotnet Core MVC on Ubuntu with Supervisor",
-            "date": "2019-06-01T17:31:40"
+            "date": "2019-06-01T17:31:40",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/DeepinScreenshot_select-area_20190601173356.png"
         },
         "the-mediator-pattern-in-net-core": {
             "title": "The Mediator Pattern In .NET Core",
-            "date": "2019-05-31T23:22:29"
+            "date": "2019-05-31T23:22:29",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/MediatorPattern.png"
         },
         "be-a-hero-on-day-1-with-asp-net-boilerplate": {
             "title": "Be a Hero on Day 1 with ASP.Net Boilerplate",
-            "date": "2019-05-31T22:59:05"
+            "date": "2019-05-31T22:59:05",
+            "featuredImage": null
         },
         "c-rss-generator-in-less-than-than-50-lines-of-code": {
             "title": "C# RSS generator in less than than 50 lines of code",
-            "date": "2019-05-31T01:17:43"
+            "date": "2019-05-31T01:17:43",
+            "featuredImage": null
         },
         "dockerized-hugo-with-gitlab-ci-cd": {
             "title": "Dockerized Hugo with GitLab CI/CD",
-            "date": "2019-05-31T00:54:05"
+            "date": "2019-05-31T00:54:05",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/techblog-lighthouse.png"
         },
         "switching-from-wordpress-to-hugo": {
             "title": "Switching From WordPress To Hugo",
-            "date": "2019-05-30T23:43:44"
+            "date": "2019-05-30T23:43:44",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/switching-from-wordpress-to-hugo.png"
         },
         "asynchronous-models-and-patterns": {
             "title": "Asynchronous models and patterns",
-            "date": "2019-05-30T23:26:27"
+            "date": "2019-05-30T23:26:27",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/title.png"
         },
         "how-to-fix-failed-to-retrieve-directory-listing-error-in-filezilla-ftp": {
             "title": "How to fix failed to retrieve directory listing error in FileZilla FTP",
-            "date": "2019-05-30T21:31:38"
+            "date": "2019-05-30T21:31:38",
+            "featuredImage": null
         },
         "why-should-i-inject-ihttpcontextaccessor-as-a-singleton": {
             "title": "Why should I inject IHttpContextAccessor as a Singleton",
-            "date": "2019-05-24T20:12:01"
+            "date": "2019-05-24T20:12:01",
+            "featuredImage": null
         },
         "cache-implementations-in-c-net": {
             "title": "Cache Implementations in C# .NET",
-            "date": "2019-05-24T16:59:11"
+            "date": "2019-05-24T16:59:11",
+            "featuredImage": null
         },
         "series-writing-high-performance-c-and-net-code": {
             "title": "Series: Writing High-Performance C# and .NET Code",
-            "date": "2019-05-24T16:33:32"
+            "date": "2019-05-24T16:33:32",
+            "featuredImage": null
         },
         "html-agility-pack": {
             "title": "Html Agility Pack",
-            "date": "2019-05-24T16:26:13"
+            "date": "2019-05-24T16:26:13",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/logo256X256.png"
         },
         "building-secure-asp-net-mvc-web-applications": {
             "title": "Building Secure ASP.NET MVC Web Applications",
-            "date": "2019-05-24T16:07:16"
+            "date": "2019-05-24T16:07:16",
+            "featuredImage": null
         },
         "budgie-how-to-use-altshift-to-switch-keyboard-layouts": {
             "title": "Budgie: How to use Alt+Shift to switch keyboard layouts?",
-            "date": "2019-05-23T16:46:38"
+            "date": "2019-05-23T16:46:38",
+            "featuredImage": null
         },
         "awesome-net": {
             "title": "Awesome .NET",
-            "date": "2019-05-23T12:15:19"
+            "date": "2019-05-23T12:15:19",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/logo-1b45985ccb8586ec724a5549a436d65f717476c7e9e407040f0d5aea23c19cfe.png"
         },
         "developing-asynchronous-microservices": {
             "title": "Developing Asynchronous Microservices",
-            "date": "2019-05-23T11:31:30"
+            "date": "2019-05-23T11:31:30",
+            "featuredImage": null
         },
         "linux-how-to-setup-drives-to-automount": {
-            "title": "Linux - How to setup drives to automount",
-            "date": "2019-05-22T16:49:04"
+            "title": "Linux &#8211; How to setup drives to automount",
+            "date": "2019-05-22T16:49:04",
+            "featuredImage": null
         },
         "ssh-to-linux-server-with-ssh-key-not-password": {
             "title": "SSH to linux server with ssh key not password",
-            "date": "2019-05-21T18:21:46"
+            "date": "2019-05-21T18:21:46",
+            "featuredImage": null
         },
         "fix-roslyn-folder-not-copied-to-the-bin-in-visual-studio": {
             "title": "Fix Roslyn folder not copied to the \\bin in Visual Studio",
-            "date": "2019-05-21T17:37:21"
+            "date": "2019-05-21T17:37:21",
+            "featuredImage": null
         },
         "deploy-dotnet-core-on-ubuntu": {
             "title": "Deploy dotnet core on ubuntu",
-            "date": "2019-05-21T17:22:46"
+            "date": "2019-05-21T17:22:46",
+            "featuredImage": null
         },
         "install-ms-sql-server-on-ubuntu": {
             "title": "Install MS SQL Server on ubuntu",
-            "date": "2019-05-21T16:16:43"
+            "date": "2019-05-21T16:16:43",
+            "featuredImage": null
         },
         "configure-ufw-firewall-on-ubuntu": {
             "title": "Configure UFW Firewall on Ubuntu",
-            "date": "2019-05-21T16:12:27"
+            "date": "2019-05-21T16:12:27",
+            "featuredImage": null
         },
         "how-to-change-history-size-in-linux": {
             "title": "How to change history size in Linux",
-            "date": "2019-05-21T16:06:50"
+            "date": "2019-05-21T16:06:50",
+            "featuredImage": null
         },
         "be-human-at-work-infographic": {
             "title": "Be human at work infographic",
-            "date": "2019-05-19T12:10:11"
+            "date": "2019-05-19T12:10:11",
+            "featuredImage": null
         },
         "reactive-extensions-for-net-developers": {
             "title": "Reactive Extensions for .NET Developers",
-            "date": "2019-05-19T03:08:31"
+            "date": "2019-05-19T03:08:31",
+            "featuredImage": null
         },
         "giving-clarity-to-linq-queries-by-extending-expressions-ed-charbeneau": {
-            "title": "Giving Clarity to LINQ Queries by Extending Expressions - Ed Charbeneau",
-            "date": "2019-05-18T22:25:56"
+            "title": "Giving Clarity to LINQ Queries by Extending Expressions &#8211; Ed Charbeneau",
+            "date": "2019-05-18T22:25:56",
+            "featuredImage": null
         },
         "functional-design-patterns-scott-wlaschin": {
-            "title": "Functional Design Patterns - Scott Wlaschin",
-            "date": "2019-05-18T21:54:45"
+            "title": "Functional Design Patterns &#8211; Scott Wlaschin",
+            "date": "2019-05-18T21:54:45",
+            "featuredImage": null
         },
         "uptime-robot": {
             "title": "Uptime Robot",
-            "date": "2019-05-18T18:08:36"
+            "date": "2019-05-18T18:08:36",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/facebook.jpg"
         },
         "design-tech-talk-series-presents-oo-design-for-testability": {
             "title": "Design Tech Talk Series Presents: OO Design for Testability",
-            "date": "2019-05-18T17:26:49"
+            "date": "2019-05-18T17:26:49",
+            "featuredImage": null
         },
         "dynamic-programming-introduction": {
             "title": "Dynamic Programming Introduction",
-            "date": "2019-05-18T16:27:22"
+            "date": "2019-05-18T16:27:22",
+            "featuredImage": null
         },
         "javascript-libraries-for-implementing-osm-interactive-maps": {
             "title": "JavaScript libraries for implementing OSM interactive maps",
-            "date": "2019-05-18T15:50:31"
+            "date": "2019-05-18T15:50:31",
+            "featuredImage": null
         },
         "applying-s-o-l-i-d-principles-in-net-c": {
             "title": "Applying S.O.L.I.D. Principles in .NET C#",
-            "date": "2019-05-18T15:08:21"
+            "date": "2019-05-18T15:08:21",
+            "featuredImage": null
         },
         "writing-testable-clean-code": {
-            "title": "Writing Testable & Clean Code",
-            "date": "2019-05-18T14:28:45"
+            "title": "Writing Testable &#038; Clean Code",
+            "date": "2019-05-18T14:28:45",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/1gs90qqPjYleH7xc4d30RyQ.png"
         },
         "a-list-of-static-site-generators-for-jamstack-sites": {
             "title": "A List of Static Site Generators for JAMstack Sites",
-            "date": "2019-05-17T17:53:52"
+            "date": "2019-05-17T17:53:52",
+            "featuredImage": null
         },
         "docker-wordpress": {
-            "title": "Docker & WordPress",
-            "date": "2019-05-17T01:04:43"
+            "title": "Docker &#038; WordPress",
+            "date": "2019-05-17T01:04:43",
+            "featuredImage": null
         },
         "how-to-build-trust-and-improve-communication-within-agile-teams": {
             "title": "How to Build Trust and Improve Communication Within Agile Teams",
-            "date": "2019-05-16T17:28:14"
+            "date": "2019-05-16T17:28:14",
+            "featuredImage": null
         },
         "c-performance-tips": {
             "title": "C# Performance Tips",
-            "date": "2019-05-16T16:37:37"
+            "date": "2019-05-16T16:37:37",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/41.png"
         },
         "entity-signal-real-time-entity-framework-ef-and-asp-net-core": {
-            "title": "Entity Signal - Real Time Entity Framework (EF) and ASP.NET core",
-            "date": "2019-05-16T15:17:10"
+            "title": "Entity Signal &#8211; Real Time Entity Framework (EF) and ASP.NET core",
+            "date": "2019-05-16T15:17:10",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/Explainer.gif"
         },
         "automate-your-code-quality-with-codacy": {
             "title": "Automate your code quality with Codacy",
-            "date": "2019-05-15T18:52:53"
+            "date": "2019-05-15T18:52:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/og.png"
         },
         "ncrunch": {
             "title": "NCrunch is an automated concurrent testing tool for Visual Studio.",
-            "date": "2019-05-14T23:06:35"
+            "date": "2019-05-14T23:06:35",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/N-logo.png"
         },
         "code-analysis-with-ndepend": {
             "title": "Code Analysis with NDepend",
-            "date": "2019-05-13T16:08:22"
+            "date": "2019-05-13T16:08:22",
+            "featuredImage": null
         },
         "hotjar": {
             "title": "Hotjar",
-            "date": "2019-05-12T12:56:19"
+            "date": "2019-05-12T12:56:19",
+            "featuredImage": null
         },
         "effector-powerful-and-fast-5kb-state-manager": {
             "title": "Effector: powerful and fast 5kb state manager",
-            "date": "2019-05-12T12:21:13"
+            "date": "2019-05-12T12:21:13",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/1QRAHCSt3aRwfUpx9zqsxag.png"
         },
         "how-to-set-up-kubernetes-on-an-ubuntu-vps": {
             "title": "How to Set Up Kubernetes on an Ubuntu VPS",
-            "date": "2019-05-11T23:39:45"
+            "date": "2019-05-11T23:39:45",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/image1-6.jpg"
         },
         "fix-wrong-git-access-denied-and-fatal-authentication": {
             "title": "Fix wrong Git Access denied and fatal Authentication",
-            "date": "2019-05-11T21:38:44"
+            "date": "2019-05-11T21:38:44",
+            "featuredImage": null
         },
         "continuous-integration-with-net-core-and-gitlab": {
             "title": "Continuous Integration with .NET Core and Gitlab",
-            "date": "2019-05-11T14:08:22"
+            "date": "2019-05-11T14:08:22",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/0AYxM9VnkQnUq5Mpn.png"
         },
         "dependency-injection-benchmarks": {
             "title": "Dependency Injection Benchmarks",
-            "date": "2019-05-10T20:49:16"
+            "date": "2019-05-10T20:49:16",
+            "featuredImage": null
         },
         "thread-safe-concurrent-collection-in-c": {
             "title": "Thread Safe Concurrent Collection in C#",
-            "date": "2019-05-10T20:37:47"
+            "date": "2019-05-10T20:37:47",
+            "featuredImage": null
         },
         "what-makes-a-great-programmer-10-characteristics": {
             "title": "What Makes A Great Programmer? 10 Characteristics",
-            "date": "2019-05-10T19:58:09"
+            "date": "2019-05-10T19:58:09",
+            "featuredImage": null
         },
         "entity-framework-tolist-vs-asenumerable-vs-asqueryable": {
             "title": "Entity Framework, ToList vs AsEnumerable vs AsQueryable",
-            "date": "2019-05-09T23:54:29"
+            "date": "2019-05-09T23:54:29",
+            "featuredImage": null
         },
         "visual-studio-with-resharper-is-slow": {
             "title": "Visual Studio with ReSharper is slow",
-            "date": "2019-05-08T14:47:59"
+            "date": "2019-05-08T14:47:59",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/05/21b860842daa208c64a39cabc155cf5774bd2b95.png"
         },
         "how-to-downgrade-a-package-in-arch-linux": {
             "title": "How To Downgrade A Package In Arch Linux",
-            "date": "2019-05-08T14:26:54"
+            "date": "2019-05-08T14:26:54",
+            "featuredImage": null
         },
         "f-for-c-programmers-scott-wlaschin": {
-            "title": "F# for C# programmers - Scott Wlaschin",
-            "date": "2019-05-08T00:45:01"
+            "title": "F# for C# programmers &#8211; Scott Wlaschin",
+            "date": "2019-05-08T00:45:01",
+            "featuredImage": null
         },
         "visual-studio-2017-cucumber-specflow-example": {
             "title": "Cucumber Specflow Example",
-            "date": "2019-05-06T13:19:53"
+            "date": "2019-05-06T13:19:53",
+            "featuredImage": null
         },
         "build-and-deploy-an-asp-net-core-web-application-as-docker-container-using-microsoft-azure": {
             "title": "Build and Deploy an ASP .Net Core Web Application as Docker Container using Microsoft Azure",
-            "date": "2019-05-05T21:59:07"
+            "date": "2019-05-05T21:59:07",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/06/add-app-service.png"
         },
         "create-react-app-3-0": {
             "title": "Create React App 3 0",
-            "date": "2019-05-05T15:29:37"
+            "date": "2019-05-05T15:29:37",
+            "featuredImage": null
         },
         "distrotest-test-a-new-linux-operating-system-on-browser": {
             "title": "distrotest : Test a new Linux operating system on Browser",
-            "date": "2019-04-20T02:37:22"
+            "date": "2019-04-20T02:37:22",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/04/DistroTest.net_1000x130.png"
         },
         "getting-started-with-ci-cd-azure-container-service-aks-powered-by-vsts": {
-            "title": "Getting started with CI/CD & Azure Container Service (AKS) powered by VSTS",
-            "date": "2019-04-14T22:19:07"
+            "title": "Getting started with CI/CD &#038; Azure Container Service (AKS) powered by VSTS",
+            "date": "2019-04-14T22:19:07",
+            "featuredImage": null
         },
         "setting-up-ci-cd-pipelines-for-azure-functions-on-vsts": {
             "title": "Setting up CI/CD Pipelines for Azure Functions on VSTS",
-            "date": "2019-04-05T22:15:58"
+            "date": "2019-04-05T22:15:58",
+            "featuredImage": null
         },
         "edwin-van-wijk-building-microservices-with-net-core-and-docker": {
-            "title": "Edwin van Wijk — Building microservices with .NET Core and Docker",
-            "date": "2019-03-06T10:12:37"
+            "title": "Edwin van Wijk \u2014 Building microservices with .NET Core and Docker",
+            "date": "2019-03-06T10:12:37",
+            "featuredImage": null
         },
         "azure-vs-aws-vs-gcp-cloud-services-free-tier-comparison": {
             "title": "Azure vs AWS vs GCP Cloud Services Free Tier comparison",
-            "date": "2019-03-03T22:35:10"
+            "date": "2019-03-03T22:35:10",
+            "featuredImage": null
         },
         "c-unit-testing-with-moq-in-9-min": {
             "title": "c# unit testing with Moq in 9 min",
-            "date": "2019-02-09T17:35:48"
+            "date": "2019-02-09T17:35:48",
+            "featuredImage": null
         },
         "full-ci-cd-pipeline-to-deploy-multi-containers-application-on-azure-container-service-with-docker-swarm-using-visual-studio-team-services": {
             "title": "Full CI/CD pipeline to deploy multi-containers application on Azure Container Service with Docker Swarm using Visual Studio Team Services",
-            "date": "2019-02-07T16:15:47"
+            "date": "2019-02-07T16:15:47",
+            "featuredImage": null
         },
         "microservice-architecture-with-asp-net-core": {
             "title": "Microservice Architecture with ASP.NET Core",
-            "date": "2019-02-02T17:02:15"
+            "date": "2019-02-02T17:02:15",
+            "featuredImage": null
         },
         "m-2-vs-nvme-whats-the-difference": {
-            "title": "M.2 vs NVME: What's the difference?",
-            "date": "2019-01-24T04:28:20"
+            "title": "M.2 vs NVME: What&#8217;s the difference?",
+            "date": "2019-01-24T04:28:20",
+            "featuredImage": null
         },
         "how-to-install-active-directory-connect-to-ad-using-c": {
-            "title": "How to install Active Directory && Connect to AD using C#",
-            "date": "2019-01-24T02:00:34"
+            "title": "How to install Active Directory &#038;&#038; Connect to AD using C#",
+            "date": "2019-01-24T02:00:34",
+            "featuredImage": null
         },
         "deploying-database-changes-alongside-your-code-with-ssdt-projects-and-vsts": {
             "title": "Deploying Database changes alongside your code with SSDT projects and VSTS",
-            "date": "2019-01-16T14:27:01"
+            "date": "2019-01-16T14:27:01",
+            "featuredImage": null
         },
         "my-top-5-distros-of-2018": {
             "title": "My Top 5 Distros of 2018",
-            "date": "2019-01-12T21:11:47"
+            "date": "2019-01-12T21:11:47",
+            "featuredImage": null
         },
         "best-screen-recorders-for-linux": {
             "title": "Best Screen Recorders For Linux",
-            "date": "2019-01-12T20:21:12"
+            "date": "2019-01-12T20:21:12",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/01/Kazam.png"
         },
         "how-can-i-set-up-an-a-address-record-for-my-domain": {
             "title": "How can I set up an A (address) record for my domain?",
-            "date": "2019-01-04T14:06:24"
+            "date": "2019-01-04T14:06:24",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2019/01/nctutmanage.png"
         },
         "linux-manjaro-switching-from-bios-to-uefi": {
             "title": "Linux Manjaro Switching from BIOS to UEFI",
-            "date": "2019-01-04T13:55:11"
+            "date": "2019-01-04T13:55:11",
+            "featuredImage": null
         },
         "downgrade-a-package-from-aur": {
             "title": "Downgrade a package from Aur",
-            "date": "2018-12-28T11:40:52"
+            "date": "2018-12-28T11:40:52",
+            "featuredImage": null
         },
         "the-unstated-react-service-pattern": {
             "title": "The Unstated React Service Pattern",
-            "date": "2018-12-22T15:01:21"
+            "date": "2018-12-22T15:01:21",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/12/1rAMvk-gDy8YI6vXsaCl_Q.png"
         },
         "diy-react-state-manager": {
             "title": "DIY React state manager",
-            "date": "2018-12-22T14:24:03"
+            "date": "2018-12-22T14:24:03",
+            "featuredImage": null
         },
         "you-might-not-need-redux": {
             "title": "You Might Not Need Redux",
-            "date": "2018-12-22T14:10:13"
+            "date": "2018-12-22T14:10:13",
+            "featuredImage": null
         },
         "sql-diagrams-tools": {
             "title": "SQL diagrams tools",
-            "date": "2018-12-20T17:47:55"
+            "date": "2018-12-20T17:47:55",
+            "featuredImage": null
         },
         "linq-for-javascript-library-mini-linq-js": {
             "title": "LINQ for JavaScript library: mini-linq-js",
-            "date": "2018-12-07T22:18:16"
+            "date": "2018-12-07T22:18:16",
+            "featuredImage": null
         },
         "installing-and-configuring-web-deploy-on-iis-8-0-or-later": {
             "title": "Installing and Configuring Web Deploy on IIS 8.0 or Later",
-            "date": "2018-12-07T11:53:08"
+            "date": "2018-12-07T11:53:08",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/12/image6.jpg"
         },
         "gitkraken-tutorial-intro-to-gitflow-2": {
             "title": "GitKraken Tutorial: Intro to Gitflow",
-            "date": "2018-12-07T11:48:46"
+            "date": "2018-12-07T11:48:46",
+            "featuredImage": null
         },
         "enable-iis-web-deploy-web-platform": {
-            "title": "Enable IIS, Web Deploy & Web Platform",
-            "date": "2018-12-07T11:47:29"
+            "title": "Enable IIS, Web Deploy &#038; Web Platform",
+            "date": "2018-12-07T11:47:29",
+            "featuredImage": null
         },
         "asp-net-mvc-5-using-a-simple-repository-pattern-for-performing-database-operations": {
             "title": "ASP.NET MVC 5: Using a Simple Repository Pattern for Performing Database Operations",
-            "date": "2018-12-01T17:17:40"
+            "date": "2018-12-01T17:17:40",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/12/repository-pattern.png"
         },
         "how-to-implement-the-repository-pattern-in-asp-net-mvc-application": {
             "title": "How to Implement the Repository Pattern in ASP.NET MVC Application",
-            "date": "2018-12-01T12:58:13"
+            "date": "2018-12-01T12:58:13",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/12/3857.pic1_.png"
         },
         "kubernetes-on-ubuntu-18-04-master-and-dashboard-setup": {
-            "title": "Kubernetes on Ubuntu 18.04 - Master and Dashboard setup",
-            "date": "2018-11-30T13:53:11"
+            "title": "Kubernetes on Ubuntu 18.04 &#8211; Master and Dashboard setup",
+            "date": "2018-11-30T13:53:11",
+            "featuredImage": null
         },
         "batch-an-api-to-bundle-multiple-paypal-rest-operations": {
             "title": "Batch: An API to bundle multiple PayPal REST operations",
-            "date": "2018-11-28T16:20:44"
+            "date": "2018-11-28T16:20:44",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/1okfjJcmLRgw0rVkE66xkEw.png"
         },
         "gitkraken-tutorial-intro-to-gitflow": {
             "title": "GitKraken Tutorial: Intro to Gitflow",
-            "date": "2018-11-27T00:54:47"
+            "date": "2018-11-27T00:54:47",
+            "featuredImage": null
         },
         "toward-reactive-programming-arabic": {
-            "title": "Toward Reactive Programming - Arabic",
-            "date": "2018-11-26T18:36:59"
+            "title": "Toward Reactive Programming &#8211; Arabic",
+            "date": "2018-11-26T18:36:59",
+            "featuredImage": null
         },
         "learn-bulma-css-for-free": {
             "title": "Learn Bulma CSS for free",
-            "date": "2018-11-26T17:14:52"
+            "date": "2018-11-26T17:14:52",
+            "featuredImage": null
         },
         "the-new-programming-language-for-web-apps-imba": {
             "title": "The new programming language for web apps Imba",
-            "date": "2018-11-26T17:10:43"
+            "date": "2018-11-26T17:10:43",
+            "featuredImage": null
         },
         "async-await-what-you-should-know": {
-            "title": "async/await - What You Should Know",
-            "date": "2018-11-26T14:58:16"
+            "title": "async/await &#8211; What You Should Know",
+            "date": "2018-11-26T14:58:16",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/async1.png"
         },
         "stackify-prefix": {
             "title": "Stackify Prefix",
-            "date": "2018-11-26T02:22:46"
+            "date": "2018-11-26T02:22:46",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/prefix-trace-features-detail.png"
         },
         "dotnet-boxed-very-good-asp-net-template": {
             "title": "Dotnet-Boxed Very good asp.net template",
-            "date": "2018-11-26T00:42:40"
+            "date": "2018-11-26T00:42:40",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/Banner.png"
         },
         "what-is-the-difference-between-a-dto-and-a-poco": {
             "title": "What is the Difference Between a DTO and a POCO?",
-            "date": "2018-11-25T23:24:54"
+            "date": "2018-11-25T23:24:54",
+            "featuredImage": null
         },
         "play-with-docker": {
             "title": "Play with Docker",
-            "date": "2018-11-25T22:58:26"
+            "date": "2018-11-25T22:58:26",
+            "featuredImage": null
         },
         "performance-analyser-chrome-extension": {
             "title": "Performance-Analyser chrome extension",
-            "date": "2018-11-25T22:56:16"
+            "date": "2018-11-25T22:56:16",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/R95Bpwl5jpwqzLpK6QokqieY3sYFgBLCpOKP8-PZ0JsVIw00GKRf3EDMb8SXXtTrzwdL83JWw640-h400-e365.jpg"
         },
         "architecture-the-lost-years-by-robert-martin": {
             "title": "Architecture the Lost Years by Robert Martin",
-            "date": "2018-11-25T22:55:12"
+            "date": "2018-11-25T22:55:12",
+            "featuredImage": null
         },
         "c-8-new-features": {
             "title": "C# 8 New Features",
-            "date": "2018-11-24T17:25:12"
+            "date": "2018-11-24T17:25:12",
+            "featuredImage": null
         },
         "comparison-of-databases-for-uwp-apps-sqlite-realm-litedb": {
-            "title": "Comparison of databases for UWP apps: SQLite, Realm & LiteDB",
-            "date": "2018-11-20T01:37:25"
+            "title": "Comparison of databases for UWP apps: SQLite, Realm &#038; LiteDB",
+            "date": "2018-11-20T01:37:25",
+            "featuredImage": null
         },
         "jeremybytes-tdd-basics-with-c": {
-            "title": "JeremyBytes - TDD Basics with C#",
-            "date": "2018-11-12T21:59:50"
+            "title": "JeremyBytes &#8211; TDD Basics with C#",
+            "date": "2018-11-12T21:59:50",
+            "featuredImage": null
         },
         "introduction-to-bdd-in-c-net-specflow-visual-studio": {
             "title": "Introduction to BDD in C# .net SpecFlow Visual Studio",
-            "date": "2018-11-12T20:21:36"
+            "date": "2018-11-12T20:21:36",
+            "featuredImage": null
+        },
+        "1086": {
+            "title": "Create chrome extension",
+            "date": "2018-11-04T15:29:19",
+            "featuredImage": null
         },
         "free-asp-net-hosting": {
             "title": "Free ASP.NET Hosting",
-            "date": "2018-11-03T22:32:36"
+            "date": "2018-11-03T22:32:36",
+            "featuredImage": null
         },
         "linqpad-build-and-test-linq-queries": {
             "title": "LINQPad: build and test LINQ queries",
-            "date": "2018-11-03T21:46:27"
+            "date": "2018-11-03T21:46:27",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/maincodescratchpad.png"
         },
         "top-it-certification-2018": {
             "title": "Top IT Certification 2018",
-            "date": "2018-11-03T20:38:41"
+            "date": "2018-11-03T20:38:41",
+            "featuredImage": null
         },
         "how-to-become-mcsd-app-builder": {
             "title": "How to become MCSD App Builder",
-            "date": "2018-11-03T20:26:29"
+            "date": "2018-11-03T20:26:29",
+            "featuredImage": null
         },
         "microsoft-certifications": {
             "title": "Microsoft Certifications",
-            "date": "2018-11-03T20:06:02"
+            "date": "2018-11-03T20:06:02",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/microsoft-certifications-overview.png"
         },
         "net-test-web-applications-from-external-computers": {
             "title": ".Net test web applications from external computers",
-            "date": "2018-11-03T14:57:51"
+            "date": "2018-11-03T14:57:51",
+            "featuredImage": null
         },
         "recommended-vscode-extensions-for-react": {
             "title": "Recommended VSCode extensions for React",
-            "date": "2018-11-03T14:55:05"
+            "date": "2018-11-03T14:55:05",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/11/prettier.gif"
         },
         "developing-enterprise-apps-with-asp-net-core-2-1": {
             "title": "Developing Enterprise Apps with ASP .NET Core 2.1",
-            "date": "2018-10-29T23:35:08"
+            "date": "2018-10-29T23:35:08",
+            "featuredImage": null
         },
         "12-lightweight-css-frameworks-to-build-a-blazing-fast-website": {
             "title": "12+ Lightweight CSS Frameworks to Build a Blazing Fast Website",
-            "date": "2018-10-27T12:56:30"
+            "date": "2018-10-27T12:56:30",
+            "featuredImage": null
         },
         "quilljs-a-powerful-rich-text-editor": {
             "title": "Quilljs a powerful rich text editor.",
-            "date": "2018-10-27T12:41:24"
+            "date": "2018-10-27T12:41:24",
+            "featuredImage": null
         },
         "entity-framework-6-tutorial-learn-entity-framework-6-from-scratch": {
             "title": "Entity Framework 6 Tutorial: Learn Entity Framework 6 from Scratch",
-            "date": "2018-10-24T20:42:15"
+            "date": "2018-10-24T20:42:15",
+            "featuredImage": null
         },
         "change-windows-server-2012-administrator-username-password": {
-            "title": "Change windows server 2012 administrator username &password",
-            "date": "2018-10-21T15:38:30"
+            "title": "Change windows server 2012 administrator username &#038;password",
+            "date": "2018-10-21T15:38:30",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/10/1.png"
         },
         "pass-props-to-a-component-rendered-by-react-router": {
             "title": "Pass props to a component rendered by React Router",
-            "date": "2018-10-20T18:21:35"
+            "date": "2018-10-20T18:21:35",
+            "featuredImage": null
         },
         "bulma-css-framework-tutorials": {
-            "title": "Bulma CSS Framework - tutorials",
-            "date": "2018-10-20T16:06:42"
+            "title": "Bulma CSS Framework &#8211; tutorials",
+            "date": "2018-10-20T16:06:42",
+            "featuredImage": null
         },
         "eslint-in-arabic": {
             "title": "ESlint in Arabic",
-            "date": "2018-10-18T21:02:48"
+            "date": "2018-10-18T21:02:48",
+            "featuredImage": null
         },
         "fontello-include-only-required-icons": {
             "title": "Fontello include only required icons",
-            "date": "2018-10-18T03:20:32"
+            "date": "2018-10-18T03:20:32",
+            "featuredImage": null
         },
         "bxjs-building-an-app-with-react-bulma-and-i18n": {
-            "title": "BxJS - Building an app with React, Bulma and i18n",
-            "date": "2018-10-18T00:51:27"
+            "title": "BxJS &#8211; Building an app with React, Bulma and i18n",
+            "date": "2018-10-18T00:51:27",
+            "featuredImage": null
         },
         "excel-drop-downs-from-list-on-different-sheet": {
             "title": "Excel Drop Downs From List on Different Sheet",
-            "date": "2018-10-15T16:29:55"
+            "date": "2018-10-15T16:29:55",
+            "featuredImage": null
         },
         "lighter-than-lightweight-how-we-built-the-same-app-twice-with-preact-and-glimmer-js": {
             "title": "Lighter than Lightweight: How We Built the Same App Twice with Preact and Glimmer.js",
-            "date": "2018-10-10T16:24:56"
+            "date": "2018-10-10T16:24:56",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/10/preactglimmer2.jpg"
         },
         "access-control-allow-origin-header-and-the-asp-net-web-api": {
             "title": "Access-Control-Allow-Origin Header and the ASP.NET Web API",
-            "date": "2018-10-08T11:33:50"
+            "date": "2018-10-08T11:33:50",
+            "featuredImage": null
         },
         "javascript-templating-tutorial-ejs": {
             "title": "JavaScript Templating Tutorial EJS",
-            "date": "2018-10-07T13:06:26"
+            "date": "2018-10-07T13:06:26",
+            "featuredImage": null
         },
         "setting-up-react-with-asp-net": {
             "title": "Setting Up React With ASP.NET",
-            "date": "2018-10-06T04:39:47"
+            "date": "2018-10-06T04:39:47",
+            "featuredImage": null
         },
         "git-clients": {
             "title": "git clients",
-            "date": "2018-10-05T02:09:09"
+            "date": "2018-10-05T02:09:09",
+            "featuredImage": null
         },
         "enable-sql-server-express-remote-access-and-create-new-user": {
             "title": "Enable SQL Server Express Remote Access and create new user",
-            "date": "2018-10-04T16:15:15"
+            "date": "2018-10-04T16:15:15",
+            "featuredImage": null
         },
         "adding-printer-in-virtualbox": {
             "title": "adding printer in virtualbox",
-            "date": "2018-09-29T03:35:17"
+            "date": "2018-09-29T03:35:17",
+            "featuredImage": null
         },
         "awesome-looking-terminal-with-oh-my-zsh": {
             "title": "Awesome Looking Terminal With Oh-My-Zsh",
-            "date": "2018-09-27T18:06:59"
+            "date": "2018-09-27T18:06:59",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png"
         },
         "fastest-way-to-create-instance-of-a-type-in-runtime-c": {
             "title": "Fastest way to create instance of a Type in Runtime C#",
-            "date": "2018-09-26T00:32:36"
+            "date": "2018-09-26T00:32:36",
+            "featuredImage": null
         },
         "c-higher-order-functions": {
             "title": "C# | Higher Order Functions",
-            "date": "2018-09-24T19:17:01"
+            "date": "2018-09-24T19:17:01",
+            "featuredImage": null
         },
         "difference-between-static-class-and-singleton-pattern": {
             "title": "Difference between static class and singleton pattern?",
-            "date": "2018-09-24T14:25:55"
+            "date": "2018-09-24T14:25:55",
+            "featuredImage": null
         },
         "c-plugin-manager": {
             "title": "C# Plugin Manager",
-            "date": "2018-09-23T14:12:41"
+            "date": "2018-09-23T14:12:41",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/ApplicationPluginArchitecture.png"
         },
         "scrum-training-series": {
             "title": "Scrum Training Series",
-            "date": "2018-09-23T12:44:08"
+            "date": "2018-09-23T12:44:08",
+            "featuredImage": null
         },
         "how-to-use-gitlab-or-any-git-provider-with-visual-studio": {
             "title": "How to use gitlab or any git provider with visual studio",
-            "date": "2018-09-23T12:22:22"
+            "date": "2018-09-23T12:22:22",
+            "featuredImage": null
         },
         "wordpress-changing-to-php-7-2": {
-            "title": "WordPress - Changing to PHP 7.2",
-            "date": "2018-09-22T21:39:32"
+            "title": "WordPress &#8211; Changing to PHP 7.2",
+            "date": "2018-09-22T21:39:32",
+            "featuredImage": null
         },
         "c-plugin-system-simple-video": {
             "title": "C# Plugin System Simple video",
-            "date": "2018-09-22T21:27:01"
+            "date": "2018-09-22T21:27:01",
+            "featuredImage": null
         },
         "copy-files-from-one-machine-to-another-using-ssh": {
             "title": "copy files from one machine to another using ssh",
-            "date": "2018-09-20T14:39:27"
+            "date": "2018-09-20T14:39:27",
+            "featuredImage": null
         },
         "import-data-from-asana-into-jira-using-your-api-key": {
             "title": "Import data from Asana into JIRA using your API key",
-            "date": "2018-09-19T14:48:28"
+            "date": "2018-09-19T14:48:28",
+            "featuredImage": null
         },
         "ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps": {
             "title": "SSH Passwordless Login Using SSH Keygen in 5 Easy Steps",
-            "date": "2018-09-18T18:28:12"
+            "date": "2018-09-18T18:28:12",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/SSH-Passwordless-Login.jpg"
         },
         "arabic-security-bsides-vancouver-2018": {
             "title": "Arabic Security: BSides Vancouver 2018",
-            "date": "2018-09-18T01:59:07"
+            "date": "2018-09-18T01:59:07",
+            "featuredImage": null
         },
         "modern-sql-evolution-of-a-dinosaur-markus-winand": {
             "title": "Modern SQL: Evolution of a dinosaur : Markus Winand",
-            "date": "2018-09-16T22:40:15"
+            "date": "2018-09-16T22:40:15",
+            "featuredImage": null
         },
         "learn-how-to-design-large-scale-systems": {
             "title": "Learn how to design large-scale systems",
-            "date": "2018-09-12T00:04:08"
+            "date": "2018-09-12T00:04:08",
+            "featuredImage": null
+        },
+        "891": {
+            "title": "Project Management tools 2018",
+            "date": "2018-09-11T10:57:11",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/download-3.png"
         },
         "30-things-to-do-after-installing-ubuntu-18-04-lts": {
             "title": "30 Things to do After Installing Ubuntu 18.04 LTS",
-            "date": "2018-09-11T10:50:04"
+            "date": "2018-09-11T10:50:04",
+            "featuredImage": null
         },
         "these-5-clean-code-tips-will-dramatically-improve-your-productivity": {
-            "title": "These 5 “clean code” tips will dramatically improve your productivity",
-            "date": "2018-09-08T18:02:52"
+            "title": "These 5 \u201cclean code\u201d tips will dramatically improve your productivity",
+            "date": "2018-09-08T18:02:52",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/1V3VfEgYhjqOxQHjthchsNA.png"
         },
         "why-and-how-to-setup-your-own-cloud-on-bare-metal": {
             "title": "Why and how to setup your own Cloud on Bare-Metal",
-            "date": "2018-09-07T16:48:43"
+            "date": "2018-09-07T16:48:43",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/0aHAFU8wNdQjYyQAV..png"
         },
         "dynamic-validator": {
             "title": "Dynamic Validator",
-            "date": "2018-09-05T23:55:20"
+            "date": "2018-09-05T23:55:20",
+            "featuredImage": null
         },
         "dynamic-workflow": {
             "title": "Dynamic Workflow",
-            "date": "2018-09-05T14:39:03"
+            "date": "2018-09-05T14:39:03",
+            "featuredImage": null
         },
         "hetzner-proxmox-installation-with-additional-ips-and-subnets": {
             "title": "Hetzner | Proxmox installation with additional IPs and subnets",
-            "date": "2018-09-05T00:38:28"
+            "date": "2018-09-05T00:38:28",
+            "featuredImage": null
         },
         "vultr-how-to-install-windows-server-2012-r2-wirth-custom-iso": {
             "title": "VULTR How To Install Windows Server 2012 r2 Wirth Custom ISO",
-            "date": "2018-09-03T17:53:57"
+            "date": "2018-09-03T17:53:57",
+            "featuredImage": null
         },
         "kubernetes-vs-docker-swarm-whats-the-difference": {
-            "title": "Kubernetes vs. Docker Swarm: What’s the Difference?",
-            "date": "2018-09-03T13:38:56"
+            "title": "Kubernetes vs. Docker Swarm: What\u2019s the Difference?",
+            "date": "2018-09-03T13:38:56",
+            "featuredImage": null
         },
         "a-plea-for-lean-software-6-lessons-i-learned-to-help-keep-software-simple": {
             "title": "A plea for lean software: 6 Lessons I learned to help keep software simple",
-            "date": "2018-09-03T00:40:16"
+            "date": "2018-09-03T00:40:16",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/09/animalli-com-animals-herbal-gazelle-jump-animal-background-picture-960x540-1.jpg"
         },
         "authentication-techniques-for-apis": {
             "title": "Authentication Techniques for APIs",
-            "date": "2018-09-02T19:09:50"
+            "date": "2018-09-02T19:09:50",
+            "featuredImage": null
         },
         "how-to-install-windows-server-2016-on-hetzner-cloud-2-5e-cheap-vps": {
-            "title": "How to install Windows Server 2016 on Hetzner Cloud | 2.5€ Cheap VPS",
-            "date": "2018-09-01T15:38:30"
+            "title": "How to install Windows Server 2016 on Hetzner Cloud | 2.5\u20ac Cheap VPS",
+            "date": "2018-09-01T15:38:30",
+            "featuredImage": null
+        },
+        "810": {
+            "title": "How to Install Deepin Desktop On Ubuntu 18.04",
+            "date": "2018-09-01T15:32:23",
+            "featuredImage": null
         },
         "how-to-install-mac-os-high-sierra-10-13-5-on-vmware-workstation-12": {
             "title": "How To Install Mac OS High Sierra 10.13.5 On VMware Workstation 12",
-            "date": "2018-08-30T23:18:59"
+            "date": "2018-08-30T23:18:59",
+            "featuredImage": null
         },
         "whats-in-a-production-web-application-%c2%b7-stephen-mann": {
-            "title": "What's in a Production Web Application?",
-            "date": "2018-08-27T13:41:16"
+            "title": "What&#8217;s in a Production Web Application?",
+            "date": "2018-08-27T13:41:16",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/08/fig1.png"
+        },
+        "787": {
+            "title": "coder.com new cloud IDE",
+            "date": "2018-08-25T15:42:43",
+            "featuredImage": null
         },
         "best-open-source-tools-for-developers-%f0%9f%9b%a0": {
-            "title": "Best Open Source Tools For Developers 🛠",
-            "date": "2018-08-23T14:59:27"
+            "title": "Best Open Source Tools For Developers \ud83d\udee0",
+            "date": "2018-08-23T14:59:27",
+            "featuredImage": null
         },
         "free-full-plural-sight-subscription": {
             "title": "Free Full Plural Sight Subscription",
-            "date": "2018-08-20T20:39:53"
+            "date": "2018-08-20T20:39:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/08/pluralsight-review.jpg"
         },
         "web-developer-security-checklist": {
             "title": "Web Developer Security Checklist",
-            "date": "2018-08-19T14:43:44"
+            "date": "2018-08-19T14:43:44",
+            "featuredImage": null
         },
         "web-architecture-101": {
             "title": "Web Architecture 101",
-            "date": "2018-08-17T13:25:11"
+            "date": "2018-08-17T13:25:11",
+            "featuredImage": null
         },
         "install-windows-2016-on-proxmox-ve": {
             "title": "Install Windows 2016 on Proxmox VE",
-            "date": "2018-08-15T01:29:04"
+            "date": "2018-08-15T01:29:04",
+            "featuredImage": null
         },
         "web-performance-checklist": {
             "title": "Web Performance Checklist",
-            "date": "2018-08-13T12:22:37"
+            "date": "2018-08-13T12:22:37",
+            "featuredImage": null
+        },
+        "733": {
+            "title": "top alternatives",
+            "date": "2018-08-13T00:28:50",
+            "featuredImage": null
         },
         "workbox-flexible-pwa-libraries": {
             "title": "Workbox: Flexible PWA Libraries",
-            "date": "2018-08-12T13:21:31"
+            "date": "2018-08-12T13:21:31",
+            "featuredImage": null
         },
         "devops-roadmap": {
             "title": "DevOps roadmap",
-            "date": "2018-08-10T11:46:41"
+            "date": "2018-08-10T11:46:41",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/08/1_AwvDJDfErlD34ox2QpwGoA.png"
         },
         "jira-installation-on-linux": {
             "title": "JIRA Installation on Linux",
-            "date": "2018-08-09T21:14:52"
+            "date": "2018-08-09T21:14:52",
+            "featuredImage": null
         },
         "intro-to-service-workers-caching": {
-            "title": "Intro To Service Workers & Caching",
-            "date": "2018-08-03T23:25:23"
+            "title": "Intro To Service Workers &#038; Caching",
+            "date": "2018-08-03T23:25:23",
+            "featuredImage": null
         },
         "lamp-stack-using-docker-compose": {
             "title": "LAMP stack using docker-compose",
-            "date": "2018-07-23T15:21:53"
+            "date": "2018-07-23T15:21:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/07/docker-logo.jpg"
         },
         "full-stack-vue-js-laravel-tutorial": {
-            "title": "Full Stack Vue.js & Laravel tutorial",
-            "date": "2018-07-19T14:01:57"
+            "title": "Full Stack Vue.js &#038; Laravel tutorial",
+            "date": "2018-07-19T14:01:57",
+            "featuredImage": null
         },
         "php-benchmarks": {
             "title": "PHP Benchmarks",
-            "date": "2018-07-19T12:37:02"
+            "date": "2018-07-19T12:37:02",
+            "featuredImage": null
         },
         "add-eslint-prettier-to-vs-code-for-a-create-react-app": {
-            "title": "Add ESLint & Prettier to VS Code for a Create React App",
-            "date": "2018-07-15T15:10:05"
+            "title": "Add ESLint &#038; Prettier to VS Code for a Create React App",
+            "date": "2018-07-15T15:10:05",
+            "featuredImage": null
         },
         "julia-high-performance-dynamic-programming-language-for-numerical-computing": {
             "title": "Julia, high-performance dynamic programming language for numerical computing",
-            "date": "2018-07-12T14:28:09"
+            "date": "2018-07-12T14:28:09",
+            "featuredImage": null
         },
         "moving-back-from-node-10-5-0-to-node-8-11-3": {
             "title": "Moving back from Node 10.5.0 to Node 8.11.3",
-            "date": "2018-07-11T14:25:23"
+            "date": "2018-07-11T14:25:23",
+            "featuredImage": null
         },
         "new-api-development-solution": {
             "title": "New API development solution",
-            "date": "2018-06-06T00:16:29"
+            "date": "2018-06-06T00:16:29",
+            "featuredImage": null
         },
         "which-programming-languages-use-the-least-electricity": {
             "title": "Which Programming Languages Use the Least Electricity?",
-            "date": "2018-06-06T00:07:34"
+            "date": "2018-06-06T00:07:34",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/06/f7216fd4-dna-sequence-finding-test-results-screenshot-from-web-site.png"
         },
         "yandex-mail-for-a-domain-free": {
             "title": "Yandex.Mail for a domain FREE",
-            "date": "2018-06-05T23:58:42"
+            "date": "2018-06-05T23:58:42",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/06/w3fZdbIEslxR_9CQRR-ezRNUZ_Q.png"
         },
         "aws-cli": {
             "title": "AWS CLI",
-            "date": "2018-05-18T17:13:21"
+            "date": "2018-05-18T17:13:21",
+            "featuredImage": null
         },
         "building-a-serverless-web-app-on-aws-services": {
             "title": "Building a Serverless Web App on AWS Services",
-            "date": "2018-05-18T17:06:20"
+            "date": "2018-05-18T17:06:20",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/2965d6f2-9e6b-4a3c-855e-97eef7f22c43.png"
         },
         "install-quick-centmin-mod-install-nginx-vhost-site-mysql-database-setup": {
             "title": "Install Quick Centmin Mod Install + Nginx Vhost Site + MySQL Database Setup",
-            "date": "2018-05-17T16:14:26"
+            "date": "2018-05-17T16:14:26",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/ebd45970955f5a008dcb41202b05aa75.png"
         },
         "aapanel": {
             "title": "aapanel",
-            "date": "2018-05-17T00:58:42"
+            "date": "2018-05-17T00:58:42",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/linux-pc.png"
         },
         "load-testing-with-redline13": {
             "title": "Load Testing with RedLine13",
-            "date": "2018-05-16T18:23:28"
+            "date": "2018-05-16T18:23:28",
+            "featuredImage": null
         },
         "keynote-google-i-o-18": {
-            "title": "Keynote (Google I/O '18)",
-            "date": "2018-05-16T16:12:51"
+            "title": "Keynote (Google I/O &#8217;18)",
+            "date": "2018-05-16T16:12:51",
+            "featuredImage": null
         },
         "getting-started-with-aws-amazon-web-services-basics": {
             "title": "Getting Started with AWS | Amazon Web Services BASICS",
-            "date": "2018-05-11T13:51:43"
+            "date": "2018-05-11T13:51:43",
+            "featuredImage": null
         },
         "install-the-aws-cli-on-linux-mac-or-unix-operating-system": {
             "title": "Install the AWS CLI on Linux, Mac or Unix Operating System",
-            "date": "2018-05-10T22:22:23"
+            "date": "2018-05-10T22:22:23",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/aws-cli1.png"
         },
         "deploying-a-react-app-with-aws-s3": {
             "title": "Deploying a React App with AWS S3",
-            "date": "2018-05-10T22:03:48"
+            "date": "2018-05-10T22:03:48",
+            "featuredImage": null
         },
         "dependency-injection-for-beginners": {
             "title": "Dependency injection for beginners",
-            "date": "2018-05-08T19:13:00"
+            "date": "2018-05-08T19:13:00",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/dependency-injection-for-beginners.png"
         },
         "install-awx-on-centos-7": {
             "title": "Install AWX on CentOS 7",
-            "date": "2018-05-07T23:33:11"
+            "date": "2018-05-07T23:33:11",
+            "featuredImage": null
         },
         "intro-to-graphql": {
             "title": "Intro to GraphQL",
-            "date": "2018-05-07T22:31:50"
+            "date": "2018-05-07T22:31:50",
+            "featuredImage": null
         },
         "migrating-wordpress-to-ghost-using-docker": {
             "title": "Migrating WordPress to Ghost using Docker",
-            "date": "2018-05-07T22:03:19"
+            "date": "2018-05-07T22:03:19",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/wordpress-to-ghost-1.jpg"
         },
         "free-robust-and-collaborative-create-react-app-deployments-on-netlify": {
             "title": "Free, robust and collaborative create-react-app deployments on Netlify",
-            "date": "2018-05-05T14:33:18"
+            "date": "2018-05-05T14:33:18",
+            "featuredImage": null
         },
         "the-largest-database-of-free-icons-available-in-png-svg-eps-psd-and-base-64-formats": {
             "title": "The largest database of free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.",
-            "date": "2018-05-05T14:16:53"
+            "date": "2018-05-05T14:16:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/flaticon-generic.jpg"
         },
         "css-grid%e2%80%8a-%e2%80%8aresponsive-layouts-and-components": {
-            "title": "CSS Grid — Responsive layouts and components",
-            "date": "2018-05-05T14:08:42"
+            "title": "CSS Grid\u200a\u2014\u200aResponsive layouts and components",
+            "date": "2018-05-05T14:08:42",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/1zEQtOUbiI00eXJ-iz5LuHQ.png"
         },
         "10-material-design-web-frameworks-worth-considering": {
             "title": "10 Material Design Web Frameworks Worth Considering",
-            "date": "2018-05-04T15:43:11"
+            "date": "2018-05-04T15:43:11",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/weekly-news-for-designers-february-19-01.jpg"
         },
         "the-best-js-frameworks-for-front-end": {
             "title": "The Best JS Frameworks for Front End",
-            "date": "2018-05-04T10:24:28"
+            "date": "2018-05-04T10:24:28",
+            "featuredImage": null
         },
         "going-serverless-compare-your-faas-options": {
             "title": "Going Serverless? Compare Your FaaS Options",
-            "date": "2018-05-04T09:37:34"
+            "date": "2018-05-04T09:37:34",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/05/faas-gcp.png"
         },
         "858-how-to-create-react-app-and-deploy-or-go-live-supritkumar-shah-1k-views-2018-deploying-a-react-app-with-aws-s3-code-with-nate-3-1k-views-2951-jamstack-tutorial-full-site-using-netlify-h": {
             "title": "How to Deploy a React Application (with Netlify)",
-            "date": "2018-05-03T20:12:31"
+            "date": "2018-05-03T20:12:31",
+            "featuredImage": null
         },
         "netlify-cms-open-source-content-management-system": {
             "title": "Netlify CMS | Open-Source Content Management System",
-            "date": "2018-05-03T20:07:28"
+            "date": "2018-05-03T20:07:28",
+            "featuredImage": null
         },
         "learn-react-material-ui-youtube-course": {
-            "title": "Learn React & Material UI - youtube course",
-            "date": "2018-05-03T20:03:21"
+            "title": "Learn React &#038; Material UI &#8211; youtube course",
+            "date": "2018-05-03T20:03:21",
+            "featuredImage": null
         },
         "10-tips-to-host-your-web-apps-for-free": {
             "title": "10 TIPS TO HOST YOUR WEB APPS FOR FREE",
-            "date": "2018-04-29T17:26:45"
+            "date": "2018-04-29T17:26:45",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/free-hosting-meme.jpg"
         },
         "mongodb-atlas-and-free-tier-from-amazon": {
             "title": "MongoDB Atlas and free tier from amazon",
-            "date": "2018-04-29T15:40:11"
+            "date": "2018-04-29T15:40:11",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/mongodb-for-giant-ideas-bbab5c3cf8.png"
         },
         "how-to-build-a-serverless-blog-on-codepen": {
             "title": "How to Build a Serverless Blog on CodePen",
-            "date": "2018-04-28T21:21:03"
+            "date": "2018-04-28T21:21:03",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/serverless.png"
         },
         "linux-chown-command": {
             "title": "Linux chown command",
-            "date": "2018-04-28T15:01:13"
+            "date": "2018-04-28T15:01:13",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/chown.gif"
         },
         "how-to-display-network-traffic-in-the-terminal": {
             "title": "How to display network traffic in the terminal?",
-            "date": "2018-04-27T14:12:38"
+            "date": "2018-04-27T14:12:38",
+            "featuredImage": null
         },
         "aws-lambda-go-vs-node-js-performance-benchmark": {
             "title": "AWS Lambda Go vs. Node.js performance benchmark",
-            "date": "2018-04-27T13:58:03"
+            "date": "2018-04-27T13:58:03",
+            "featuredImage": null
         },
         "simple-openvpn-client": {
             "title": "Simple OpenVPN Client",
-            "date": "2018-04-27T12:29:47"
+            "date": "2018-04-27T12:29:47",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/logo.png"
         },
         "ddos-tool-hammer": {
             "title": "DDOS tool (hammer)",
-            "date": "2018-04-27T12:06:58"
+            "date": "2018-04-27T12:06:58",
+            "featuredImage": null
         },
         "openvpn-install": {
             "title": "OpenVPN-install",
-            "date": "2018-04-26T19:36:52"
+            "date": "2018-04-26T19:36:52",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/68747470733a2f2f6c75742e696d2f497a6a467266684d31382f4459384b4439315730754d6845674c702e706e67.png"
         },
         "free-kubernetes-cluster-with-google-cloud": {
             "title": "Free Kubernetes cluster with Google Cloud",
-            "date": "2018-04-24T19:12:07"
+            "date": "2018-04-24T19:12:07",
+            "featuredImage": null
         },
         "gitlab-working-with-non-default-ssh-key-pair-paths": {
-            "title": "Gitlab Working with non-default SSH key pair paths ",
-            "date": "2018-04-23T17:17:45"
+            "title": "Gitlab Working with non-default SSH key pair paths\u00a0",
+            "date": "2018-04-23T17:17:45",
+            "featuredImage": null
         },
         "github-vs-bitbucket-vs-gitlab-vs-coding": {
             "title": "GitHub vs. Bitbucket vs. GitLab vs. Coding",
-            "date": "2018-04-23T16:54:42"
+            "date": "2018-04-23T16:54:42",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/1ZRiHG2TDKOyJj7NoyEOQbQ.png"
         },
         "7-great-apps-to-view-disk-usage-in-linux": {
             "title": "7 Great Apps to View Disk Usage in Linux",
-            "date": "2018-04-21T00:24:39"
+            "date": "2018-04-21T00:24:39",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/muo-linux-diskusagetools-terminal2.png"
         },
         "announcing-general-availability-of-mysql-8-0": {
             "title": "Announcing General Availability of MySQL 8.0",
-            "date": "2018-04-20T13:34:33"
+            "date": "2018-04-20T13:34:33",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/performance_80.png"
         },
         "how-modern-sql-databases-come-up-with-algorithms-that-you-would-have-never-dreamed-of": {
             "title": "How Modern SQL Databases Come up with Algorithms that You Would Have Never Dreamed Of",
-            "date": "2018-04-20T13:23:58"
+            "date": "2018-04-20T13:23:58",
+            "featuredImage": null
         },
         "single-page-application-within-2-minutesasp-net-mvc": {
             "title": "Single Page Application Within 2 Minutes(ASP.NET MVC)",
-            "date": "2018-04-17T10:40:46"
+            "date": "2018-04-17T10:40:46",
+            "featuredImage": null
         },
         "cmder-portable-console-emulator-for-windows": {
             "title": "Cmder: Portable console emulator for Windows",
-            "date": "2018-04-16T16:50:59"
+            "date": "2018-04-16T16:50:59",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/main.jpg"
         },
         "virtualbox-resize-disk": {
             "title": "VirtualBox Resize Disk",
-            "date": "2018-04-16T01:25:12"
+            "date": "2018-04-16T01:25:12",
+            "featuredImage": null
         },
         "cast-a-chrome-tab-on-your-tv": {
             "title": "Cast a Chrome tab on your TV",
-            "date": "2018-04-15T00:45:39"
+            "date": "2018-04-15T00:45:39",
+            "featuredImage": null
         },
         "how-to-install-wordpress-on-vestacp-at-aws-and-digitalocean": {
             "title": "How To Install WordPress On VestaCP At AWS And Digitalocean",
-            "date": "2018-04-12T15:14:41"
+            "date": "2018-04-12T15:14:41",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/Create-droplet-300x146.jpg"
         },
         "how-to-backup-and-restore-rollback-repair-linux": {
             "title": "How to backup and restore/rollback/repair Linux",
-            "date": "2018-04-11T19:19:40"
+            "date": "2018-04-11T19:19:40",
+            "featuredImage": null
         },
         "tabler-tml-dashboard": {
             "title": "Tabler TML Dashboard",
-            "date": "2018-04-10T18:31:27"
+            "date": "2018-04-10T18:31:27",
+            "featuredImage": null
         },
         "https-benchmark-tools-testing-debugging-restapi-restful": {
-            "title": "HTTP(S) benchmark tools, testing/debugging, & restAPI (RESTful)",
-            "date": "2018-04-10T15:14:01"
+            "title": "HTTP(S) benchmark tools, testing/debugging, &#038; restAPI (RESTful)",
+            "date": "2018-04-10T15:14:01",
+            "featuredImage": null
         },
         "nginx-vs-apache": {
             "title": "NGINX vs. Apache",
-            "date": "2018-04-10T14:54:24"
+            "date": "2018-04-10T14:54:24",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/apache-market-share-1995-2005.png"
         },
         "soundcloud-client-for-your-desktop-linux-windows": {
-            "title": "SoundCloud client for your desktop Linux & windows",
-            "date": "2018-04-08T20:44:34"
+            "title": "SoundCloud client for your desktop Linux &#038; windows",
+            "date": "2018-04-08T20:44:34",
+            "featuredImage": null
         },
         "manjaro-system-boot-logs": {
             "title": "Manjaro System boot logs",
-            "date": "2018-04-08T19:11:13"
+            "date": "2018-04-08T19:11:13",
+            "featuredImage": null
         },
         "deployment-management-tools-chef-vs-puppet-vs-ansible-vs-saltstack-vs-fabric": {
             "title": "Deployment Management Tools: Chef vs. Puppet vs. Ansible vs. SaltStack vs. Fabric",
-            "date": "2018-04-07T14:06:46"
+            "date": "2018-04-07T14:06:46",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/04/ansible.jpg"
         },
         "chef-vs-puppet-vs-ansible-vs-saltstack-configuration-management-tools-comparison-edureka": {
             "title": "Chef vs Puppet vs Ansible vs SaltStack Configuration Management Tools Comparison Edureka",
-            "date": "2018-04-07T13:29:07"
+            "date": "2018-04-07T13:29:07",
+            "featuredImage": null
         },
         "container-os-comparisons": {
             "title": "Container OS Comparisons",
-            "date": "2018-04-04T15:55:50"
+            "date": "2018-04-04T15:55:50",
+            "featuredImage": null
         },
         "how-to-run-multiple-wordpress-websites-on-digital-ocean": {
             "title": "How to Run Multiple WordPress Websites on Digital Ocean",
-            "date": "2018-04-04T13:16:14"
+            "date": "2018-04-04T13:16:14",
+            "featuredImage": null
         },
         "fast-vps-setup-digitalocean-droplet-serverpilot-wordpress-step-by-step-guide": {
             "title": "Fast VPS Setup: DigitalOcean Droplet + ServerPilot + WordPress (Step by Step Guide)",
-            "date": "2018-04-04T13:09:09"
+            "date": "2018-04-04T13:09:09",
+            "featuredImage": null
         },
         "docker-all-the-things-net-4-6-apps-and-windows-containers": {
-            "title": "Docker All the Things - .NET 4.6 apps and Windows Containers",
-            "date": "2018-04-04T12:58:10"
+            "title": "Docker All the Things &#8211; .NET 4.6 apps and Windows Containers",
+            "date": "2018-04-04T12:58:10",
+            "featuredImage": null
         },
         "vultr-how-to-install-windows-server-2012-r2-wirth-custom-iso-vivuonline": {
             "title": "VULTR How To Install Windows Server 2012 r2 Wirth Custom ISO ViVuOnline",
-            "date": "2018-04-03T18:49:43"
+            "date": "2018-04-03T18:49:43",
+            "featuredImage": null
         },
         "announcing-1-1-1-1-the-fastest-privacy-first-consumer-dns-service": {
             "title": "Announcing 1.1.1.1: the fastest, privacy-first consumer DNS service",
-            "date": "2018-04-03T15:06:48"
+            "date": "2018-04-03T15:06:48",
+            "featuredImage": null
         },
         "arch-linux-post-installation-30-things-to-do-after-installing-arch-linux": {
             "title": "Arch Linux Post Installation (30 Things to do after Installing Arch Linux)",
-            "date": "2018-04-01T16:22:40"
+            "date": "2018-04-01T16:22:40",
+            "featuredImage": null
         },
         "5-most-beautiful-linux-desktop-environments": {
             "title": "5 Most Beautiful Linux Desktop Environments",
-            "date": "2018-03-31T19:05:25"
+            "date": "2018-03-31T19:05:25",
+            "featuredImage": null
         },
         "install-deepin-desktop-environment-in-arch-or-manjaro": {
             "title": "Install Deepin Desktop Environment In Arch or Manjaro",
-            "date": "2018-03-31T19:03:43"
+            "date": "2018-03-31T19:03:43",
+            "featuredImage": null
         },
         "schedule-email-through-asp-net-or-schedule-tasks-using-asp-net": {
             "title": "Schedule Email Through ASP.NET or Schedule Tasks Using ASP.NET",
-            "date": "2018-03-31T19:01:02"
+            "date": "2018-03-31T19:01:02",
+            "featuredImage": null
         },
         "introducing-tensorflow-js-machine-learning-in-javascript": {
             "title": "Introducing TensorFlow.js: Machine Learning in Javascript",
-            "date": "2018-03-31T18:57:52"
+            "date": "2018-03-31T18:57:52",
+            "featuredImage": null
         },
         "awesome-speakers-in-the-programming-and-design-communities": {
             "title": "Awesome speakers in the programming and design communities",
-            "date": "2018-03-31T18:55:56"
+            "date": "2018-03-31T18:55:56",
+            "featuredImage": null
         },
         "packaging-node-js-code-into-cross-platform-executables": {
             "title": "Packaging Node.js code into cross platform executables",
-            "date": "2018-03-31T18:54:53"
+            "date": "2018-03-31T18:54:53",
+            "featuredImage": null
         },
         "zeal-an-offline-documentation-browser-for-developers": {
-            "title": "Zeal – An Offline Documentation Browser For Developers",
-            "date": "2018-03-31T18:52:21"
+            "title": "Zeal \u2013 An Offline Documentation Browser For Developers",
+            "date": "2018-03-31T18:52:21",
+            "featuredImage": null
         },
         "install-virtualbox-on-manjaro": {
             "title": "Install VirtualBox on Manjaro",
-            "date": "2018-03-31T16:52:48"
+            "date": "2018-03-31T16:52:48",
+            "featuredImage": null
         },
         "problem-of-ntfs-partition-mount-as-read-only-in-linux": {
             "title": "Problem of  NTFS partition mount as read only in linux",
-            "date": "2018-03-31T14:58:55"
+            "date": "2018-03-31T14:58:55",
+            "featuredImage": null
         },
         "fcm-firebase-cloud-messaging-push-notification-with-asp-net": {
             "title": "FCM (Firebase Cloud Messaging) Push Notification with Asp.Net",
-            "date": "2018-03-27T14:44:30"
+            "date": "2018-03-27T14:44:30",
+            "featuredImage": null
         },
         "modern-frontend-developer-in-2018": {
-            "title": "Modern Frontend Developer in 2018",
-            "date": "2018-03-27T13:15:51"
+            "title": "Modern Frontend Developer in\u00a02018",
+            "date": "2018-03-27T13:15:51",
+            "featuredImage": null
         },
         "how-to-install-vmware-workstation-on-manjaro": {
             "title": "how to install Vmware workstation on manjaro",
-            "date": "2018-03-25T20:49:33"
+            "date": "2018-03-25T20:49:33",
+            "featuredImage": null
         },
         "success-story-how-inoreader-migrated-from-bare-metal-servers-to-opennebula-storpool": {
-            "title": "Success Story - How Inoreader Migrated From Bare-metal Servers to OpenNebula + StorPool",
-            "date": "2018-03-25T20:17:52"
+            "title": "Success Story &#8211; How Inoreader Migrated From Bare-metal Servers to OpenNebula + StorPool",
+            "date": "2018-03-25T20:17:52",
+            "featuredImage": null
         },
         "opennebula-installation-in-ubuntu-16-04-and-using-kvm": {
             "title": "opennebula installation in ubuntu 16.04 and using KVM",
-            "date": "2018-03-25T20:16:50"
+            "date": "2018-03-25T20:16:50",
+            "featuredImage": null
         },
         "octoroit-os-2018-installation-guide-and-review": {
             "title": "Octoroit OS 2018 Installation Guide and Review",
-            "date": "2018-03-25T16:18:34"
+            "date": "2018-03-25T16:18:34",
+            "featuredImage": null
         },
         "10-things-to-do-first-in-arch-linux": {
             "title": "10 Things to do first in Arch Linux",
-            "date": "2018-03-25T14:55:23"
+            "date": "2018-03-25T14:55:23",
+            "featuredImage": null
         },
         "vmware-linux-issues": {
             "title": "VMWARE Linux issues",
-            "date": "2018-03-24T11:48:14"
+            "date": "2018-03-24T11:48:14",
+            "featuredImage": null
         },
         "10-best-linux-desktop-environments": {
             "title": "10 Best Linux Desktop Environments",
-            "date": "2018-03-24T11:40:26"
+            "date": "2018-03-24T11:40:26",
+            "featuredImage": null
         },
         "manjaro-deepin-17-0-5": {
             "title": "Manjaro Deepin 17.0.5",
-            "date": "2018-03-24T10:39:05"
+            "date": "2018-03-24T10:39:05",
+            "featuredImage": null
         },
         "install-sublime-text-on-manjaro": {
             "title": "Install Sublime Text on Manjaro",
-            "date": "2018-03-23T20:46:59"
+            "date": "2018-03-23T20:46:59",
+            "featuredImage": null
         },
         "common-ajax-caller-in-javascript": {
             "title": "Common ajax caller in javascript",
-            "date": "2018-03-23T18:18:02"
+            "date": "2018-03-23T18:18:02",
+            "featuredImage": null
         },
         "how-to-install-ms-ttf-fonts": {
             "title": "How to install MS ttf fonts",
-            "date": "2018-03-23T14:41:34"
+            "date": "2018-03-23T14:41:34",
+            "featuredImage": null
         },
         "inux-numlock-fix-numlock-always-on-after-bootup": {
             "title": "inux Numlock fix! numlock always on after bootup.",
-            "date": "2018-03-23T13:47:21"
+            "date": "2018-03-23T13:47:21",
+            "featuredImage": null
         },
         "10x-performance-increases-optimizing-a-static-site": {
             "title": "10x Performance Increases: Optimizing a Static Site",
-            "date": "2018-03-18T16:44:48"
+            "date": "2018-03-18T16:44:48",
+            "featuredImage": null
         },
         "net-core": {
             "title": ".NET Core",
-            "date": "2018-03-15T13:17:21"
+            "date": "2018-03-15T13:17:21",
+            "featuredImage": null
         },
         "exercises-in-programming-style": {
             "title": "Exercises in Programming Style",
-            "date": "2018-03-14T17:38:30"
+            "date": "2018-03-14T17:38:30",
+            "featuredImage": null
         },
         "how-shifter-introduced-serverless-hosting-to-wordpress-using-aws-dynamodb-the-serverless-framework": {
-            "title": "How Shifter Introduced Serverless Hosting to WordPress Using AWS, DynamoDB & the Serverless Framework",
-            "date": "2018-03-14T17:37:03"
+            "title": "How Shifter Introduced Serverless Hosting to WordPress Using AWS, DynamoDB &#038; the Serverless Framework",
+            "date": "2018-03-14T17:37:03",
+            "featuredImage": null
         },
         "free-material-dashboard-react-template": {
             "title": "free material dashboard react template",
-            "date": "2018-03-14T17:11:34"
+            "date": "2018-03-14T17:11:34",
+            "featuredImage": null
         },
         "developer-survey-results-2018": {
             "title": "Developer Survey Results 2018",
-            "date": "2018-03-14T16:57:22"
+            "date": "2018-03-14T16:57:22",
+            "featuredImage": null
         },
         "an-overview-of-javascript-testing-in-2018": {
             "title": "An Overview of JavaScript Testing in 2018",
-            "date": "2018-03-14T16:09:40"
+            "date": "2018-03-14T16:09:40",
+            "featuredImage": null
         },
         "everyone-can-now-run-javascript-on-cloudflare-with-workers": {
             "title": "Everyone can now run JavaScript on Cloudflare with Workers",
-            "date": "2018-03-13T20:28:21"
+            "date": "2018-03-13T20:28:21",
+            "featuredImage": null
         },
         "oracle-data-pump-expdp-impdp-in-oracle-database-10g-11g-12c": {
             "title": "Oracle Data Pump (expdp, impdp) in Oracle Database 10g, 11g, 12c",
-            "date": "2018-03-13T20:19:36"
+            "date": "2018-03-13T20:19:36",
+            "featuredImage": null
         },
         "my-tasks-in-security-checklist": {
             "title": "My Tasks in Security checklist",
-            "date": "2018-03-13T20:16:55"
+            "date": "2018-03-13T20:16:55",
+            "featuredImage": null
         },
         "heroku-alternatives": {
-            "title": "Heroku Alternatives — Top 5 Picks",
-            "date": "2018-03-13T20:11:20"
+            "title": "Heroku Alternatives\u200a\u2014\u200aTop 5 Picks",
+            "date": "2018-03-13T20:11:20",
+            "featuredImage": null
         },
         "rule-your-microservices-with-an-api-gateway-part-i": {
             "title": "Rule Your Microservices with an API Gateway: Part I",
-            "date": "2018-03-13T18:57:45"
+            "date": "2018-03-13T18:57:45",
+            "featuredImage": null
         },
         "nvme-vs-ssd-vs-hdd-performance": {
             "title": "NVMe vs SSD vs HDD Performance",
-            "date": "2018-03-13T17:44:11"
+            "date": "2018-03-13T17:44:11",
+            "featuredImage": null
         },
         "easy-install-softether-vpn-to-ubuntu-vps": {
             "title": "Easy Install Softether VPN to Ubuntu VPS",
-            "date": "2018-03-13T17:05:34"
+            "date": "2018-03-13T17:05:34",
+            "featuredImage": null
         },
         "kubernetes-the-easy-way-for-developers-in-2018": {
             "title": "Kubernetes The Easy Way! (For Developers In 2018)",
-            "date": "2018-03-13T16:39:17"
+            "date": "2018-03-13T16:39:17",
+            "featuredImage": null
         },
         "how-can-i-prevent-sql-injection-in-php": {
             "title": "How to prevent SQL injection in PHP?",
-            "date": "2018-03-12T16:06:20"
+            "date": "2018-03-12T16:06:20",
+            "featuredImage": null
         },
         "radzen-the-first-rapid-application-development-tool": {
-            "title": "Radzen - The first rapid application development tool",
-            "date": "2018-03-11T20:25:15"
+            "title": "Radzen &#8211; The first rapid application development tool",
+            "date": "2018-03-11T20:25:15",
+            "featuredImage": null
         },
         "3-leading-enterprise-low-code-app-development-platforms-compared": {
             "title": "3 Leading Enterprise Low-Code App Development Platforms Compared",
-            "date": "2018-03-11T20:14:46"
+            "date": "2018-03-11T20:14:46",
+            "featuredImage": null
         },
         "plans-built-for-email-delivery-from-mailgun": {
             "title": "Plans Built For Email Delivery from mailgun",
-            "date": "2018-03-11T18:52:06"
+            "date": "2018-03-11T18:52:06",
+            "featuredImage": null
         },
         "how-to-test-junior-laravel-developer-skills-sample-project": {
             "title": "How to Test Junior Laravel Developer Skills: Sample Project",
-            "date": "2018-03-11T18:36:40"
+            "date": "2018-03-11T18:36:40",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/03/company-crud-1024x505.png"
         },
         "how-to-setup-a-domain-on-cloudflare-using-cloudflare-dns-servers": {
-            "title": "How To Setup A Domain On Cloudflare - Using Cloudflare DNS Servers",
-            "date": "2018-03-07T13:56:12"
+            "title": "How To Setup A Domain On Cloudflare &#8211; Using Cloudflare DNS Servers",
+            "date": "2018-03-07T13:56:12",
+            "featuredImage": null
         },
         "how-to-install-ubuntu-server-17-10-static-ip-lamp-server-webmin-admin-panel": {
             "title": "How To install Ubuntu server 17.10 + Static ip + LAMP SERVER + Webmin Admin Panel",
-            "date": "2018-03-05T18:54:56"
+            "date": "2018-03-05T18:54:56",
+            "featuredImage": null
         },
         "how-can-bitcoin-compete-in-the-money-transfer-market": {
             "title": "How can bitcoin compete in the money transfer market?",
-            "date": "2018-03-04T10:36:16"
+            "date": "2018-03-04T10:36:16",
+            "featuredImage": null
         },
         "how-we-built-hamiltix-net-for-less-than-1-a-month-on-aws": {
             "title": "How we built Hamiltix.net for less than $1 a month on AWS",
-            "date": "2018-03-04T08:24:34"
+            "date": "2018-03-04T08:24:34",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/03/hamiltix-aws.png"
         },
         "install-guake-drop-down-terminal-on-ubuntu-16-04": {
             "title": "Install Guake Drop Down Terminal On Ubuntu 16.04",
-            "date": "2018-03-04T08:12:19"
+            "date": "2018-03-04T08:12:19",
+            "featuredImage": null
         },
         "10-free-cdn-services-to-speed-up-wordpress": {
             "title": "10+ Free CDN Services to Speed Up WordPress",
-            "date": "2018-02-19T08:50:53"
+            "date": "2018-02-19T08:50:53",
+            "featuredImage": "https://emolike.net/wp-content/uploads/2018/03/Cloudflare-cdn-service.png"
         }
     }
 }

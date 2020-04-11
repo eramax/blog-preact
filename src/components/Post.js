@@ -4,7 +4,8 @@ export default class Post extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      content: ""
+      post: null,
+      notFound: <h3>The page not found!</h3>
     };
 
   }
@@ -21,36 +22,34 @@ export default class Post extends Component {
     fetch(this.props.api + "posts/" + this.props.slug + ".json")
       .then(data => data.json())
       .then(data => {
-        currentComponent.setState({ content: data.content });
+        currentComponent.setState({ post: data });
       })
       .catch(function (error) {
         console.log(error);
-        currentComponent.setState({ content: "<h3>The page not found!</h3>" });
+        currentComponent.setState({ post: null });
       });
   }
   render() {
     return (
       <div id="main" className="pure-u-1">
-        <div className="email-content">
-          <div className="email-content-header pure-g">
-            <div className="pure-u-1-2">
-              <h1 className="email-content-title">{this.props.slug}</h1>
-              <p className="email-content-subtitle">
-                From Tilo Mitra at <span>3:56pm, April 3, 2012</span>
-              </p>
+        {
+          (this.state.post)?
+          <div className="email-content">
+            <div className="email-content-header pure-g">
+              <div className="pure-u">
+                <h1 className="email-content-title">{this.state.post.title}</h1>
+                <p className="email-content-subtitle">
+                  From Ahmed Essam at <span>{new Date(this.state.post.date).toDateString()}</span>
+                </p>
+              </div>
             </div>
-
-            <div className="email-content-controls pure-u-1-2">
-              <button className="secondary-button pure-button">Reply</button>
-              <button className="secondary-button pure-button">Forward</button>
-              <button className="secondary-button pure-button">Move to</button>
+            <div className="email-content-body">
+              <div key={this.props.slug} 
+              dangerouslySetInnerHTML={{ __html: (this.state.post)? this.state.post.content : this.state.notFound }} />
             </div>
           </div>
-
-          <div className="email-content-body">
-            <div key={this.props.slug} dangerouslySetInnerHTML={{ __html: this.state.content }} />
-          </div>
-        </div>
+          : this.state.notFound
+        }
       </div>
     );
   }

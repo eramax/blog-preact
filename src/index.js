@@ -49,12 +49,13 @@ export default class App extends Component {
     let list = []
     if (this.state.categories != null) {
       this.state.categories[catId].posts.forEach((it,k) => {
-        if (this.state.posts[it])
+        const post = this.state.posts[it]
+        if (post)
           list.push(<PostCard key={it} 
-            title={this.state.posts[it].title} 
-            date={this.state.posts[it].date}
+            title={post.title} 
+            date={new Date(post.date).toDateString()}
             onSelect={() => this.selectPost(k)}
-            img={defaultImage}
+            img={(post.featuredImage)? post.featuredImage : defaultImage}
             url={it}
             selected={k==postId} />)
       });
@@ -81,7 +82,7 @@ export default class App extends Component {
         <div class="list">
           <div id="layout" className="content pure-g">
             <div id="nav" className="pure-u">
-              <a className="nav-menu-button">Menu</a>
+              <a className="nav-menu-button">...</a>
               <div className="nav-inner">
                 <div className="pure-menu">
                   <ul className="pure-menu-list">
@@ -98,7 +99,7 @@ export default class App extends Component {
               }
             </div>
             <Router onChange={this.handleRoute}>
-					    <Post path="/" />
+					    <Post path="/"  api={API} />
 					    <Post path="/:slug" api={API} />
 				    </Router>
           </div>

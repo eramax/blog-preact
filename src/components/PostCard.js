@@ -1,7 +1,6 @@
 import { Link } from 'preact-router/match';
 
 const PostCard = props => {
-  let d = new Date(props.date);
   return (
     <Link activeClassName="email-item-selected" href={"/" +props.url} className="email-item pure-g">
       <div className="pure-u">
@@ -15,7 +14,7 @@ const PostCard = props => {
       </div>
 
       <div className="pure-u-3-4">
-        <h5 className="email-name">{d.toDateString()}</h5>
+        <h5 className="email-name">{props.date}</h5>
         <h4 className="email-subject">{props.title}</h4>
       </div>
     </Link>
