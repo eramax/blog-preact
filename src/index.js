@@ -1,6 +1,5 @@
 import { Component } from "preact";
 import { Router } from 'preact-router';
-import axios from "axios";
 import CategoryCard from "./components/CategoryCard";
 import PostCard from "./components/PostCard";
 import Post from "./components/Post";
@@ -26,13 +25,13 @@ export default class App extends Component {
   }
   componentDidMount() {
     let currentComponent = this;
-    axios
-      .get(API+"index.json", { timeout: 30000 })
-      .then(function (data) {
-        if ("data" in data && "categories" in data.data && "posts" in data.data) {
+    fetch(API+"index.json")
+      .then((data) =>  data.json())
+      .then((data) =>  {
+       if ( "categories" in data && "posts" in data) {
           currentComponent.setState({
-            categories: data.data.categories,
-            posts: data.data.posts
+            categories: data.categories,
+            posts: data.posts
           });
         }
       })

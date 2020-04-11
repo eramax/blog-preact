@@ -1,46 +1,34 @@
 import { Component } from "preact";
-import axios from "axios";
-import Parser from 'html-react-parser';
-
-class HtmlParser extends Component {
-  render() {
-    <div>{Parser(this.props.html)}</div>
-  }
-};
 
 export default class Post extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      content: "",
-      slug: ""
+      content: ""
     };
 
   }
-  componentDidMount()
-  {
+  componentDidMount() {
     this.load()
   }
   componentDidUpdate(prevProps) {
     if (this.props.slug !== prevProps.slug) {
-      // fetch or other component tasks necessary for rendering
       this.load()
     }
   }
-  load()
-  {
+  load() {
     let currentComponent = this;
-    axios
-      .get(this.props.api + "posts/" + this.props.slug + ".json", { timeout: 30000 })
-      .then(function (data) {
-        currentComponent.setState({ content: data.data.content });
+    fetch(this.props.api + "posts/" + this.props.slug + ".json")
+      .then(data => data.json())
+      .then(data => {
+        currentComponent.setState({ content: data.content });
       })
       .catch(function (error) {
         console.log(error);
+        currentComponent.setState({ content: "<h3>The page not found!</h3>" });
       });
   }
   render() {
-    console.log(this.props.slug)
     return (
       <div id="main" className="pure-u-1">
         <div className="email-content">
