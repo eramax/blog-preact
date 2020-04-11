@@ -6,6 +6,7 @@ import Post from "./components/Post";
 
 import "purecss/build/pure-min.css";
 import "./css/style.css";
+
 import defaultImage from "./assets/Blog-Post-Icon-Navy-Blue.png" 
 
 const API = "/assets/"
