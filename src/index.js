@@ -55,11 +55,7 @@ export default class App extends Component {
   }
   getPosts() {
     let list = []
-    if(this.state.categories != null && 
-       this.state.categories != undefined &&
-       this.state.selectedCategory != null &&
-       this.state.selectedCategory != undefined &&
-       this.state.categories[this.state.selectedCategory]['posts'] != undefined )
+    if(this.state.categories != null &&  this.state.selectedCategory != null  )
     {
         this.state.categories[this.state.selectedCategory]['posts'].forEach((it,k) => {
           const post = this.state.posts[it]
@@ -82,13 +78,13 @@ export default class App extends Component {
       if(this.state.root)
       {
           catId = Object.keys(this.state.categories)[0]
-          this.selectCategory([...catId])
+          this.selectCategory([...[catId]])
       }
       Object.keys(this.state.categories).forEach(it =>
         {
           list.push(<CategoryCard name={it} 
             count={this.state.categories[it].posts.length}
-            onSelect={() => this.selectCategory([...it])} 
+            onSelect={() => this.selectCategory([...[it]])} 
             selected={it==catId} />)
         }
       );
