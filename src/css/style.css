@@ -287,3 +287,21 @@ a {
 .brand-cont {
   margin-left: 20px;
 }
+
+pre {
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: auto hidden;
+    white-space: pre;
+    word-break:keep-all;
+    overflow-wrap:break-word;
+    font-family: Menlo, monospace;
+    color: rgb(214, 222, 235);
+    background-color: rgb(1, 22, 39);
+    font-size: 14px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border-radius: 10px;
+}
