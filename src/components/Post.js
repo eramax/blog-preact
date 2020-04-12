@@ -39,16 +39,16 @@ export default class Post extends Component {
       <div id="main" className="pure-u-1">
         {
           (this.state.post)?
-          <div className="email-content">
-            <div className="email-content-header pure-g">
+          <div className="blog-content">
+            <div className="blog-content-header pure-g">
               <div className="pure-u">
-                <h1 className="email-content-title">{this.state.post.title}</h1>
-                <p className="email-content-subtitle">
+                <h1 className="blog-content-title">{this.state.post.title}</h1>
+                <p className="blog-content-subtitle">
                   From Ahmed Essam at <span>{new Date(this.state.post.date).toDateString()}</span>
                 </p>
               </div>
             </div>
-            <div className="email-content-body">
+            <div className="blog-content-body">
               <div key={this.props.slug} 
               dangerouslySetInnerHTML={{ __html: (this.state.post)? this.state.post.content : this.state.notFound }} />
             </div>
