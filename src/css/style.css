@@ -139,6 +139,7 @@ a {
 .blog-content-body,
 .blog-content-footer {
   padding: 1em 2em;
+  padding-top: 0px;
 }
 .blog-content-header {
   border-bottom: 1px solid #ddd;
