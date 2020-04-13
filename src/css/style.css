@@ -65,6 +65,7 @@ a {
 #nav .pure-menu-link {
   color: #fff;
   margin-left: 0.5em;
+  text-transform: capitalize;
 }
 #nav .pure-menu-heading {
   border-bottom: none;
@@ -104,6 +105,7 @@ a {
   padding: 0.9em 1em;
   border-bottom: 1px solid #ddd;
   border-left: 6px solid transparent;
+  text-transform: capitalize;
 }
 .blog-avatar {
   border-radius: 3px;
@@ -143,6 +145,7 @@ a {
 }
 .blog-content-header {
   border-bottom: 1px solid #ddd;
+  text-transform: capitalize;
 }
 .blog-content-body {
   margin: 20px;
