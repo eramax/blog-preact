@@ -7,7 +7,7 @@ import Post from "./components/Post";
 import "purecss/build/pure-min.css";
 import "./css/style.css";
 
-import defaultImage from "./assets/Blog-Post-Icon-Navy-Blue.png" 
+import defaultImage from "./assets/icons/Blog-Post-Icon-Navy-Blue.png" 
 const API = "/assets/"
 
 export default class App extends Component {
@@ -107,7 +107,7 @@ export default class App extends Component {
                     height="150"
                     className="brand"
                     alt="Ahmed Essam"
-                    src="./assets/me0.webp"
+                    src="./assets/icons/me0.webp"
                   />
                   <h2 className="brandme">AHMED ESSAM</h2>
                 </div>
