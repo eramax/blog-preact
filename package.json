@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build  && cp _redirects build/_redirects",
+    "build": "preact build  && cp _redirects build/_redirects && cp _headers build/_headers",
     "serve": "sirv build --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
