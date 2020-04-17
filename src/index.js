@@ -1,6 +1,6 @@
 import { Component } from "preact";
 import Post from "./components/Post";
-import { Link, Route } from "wouter";
+import { Link, Route, useRoute } from "wouter";
 
 import "purecss/build/pure-min.css";
 import "./css/style.css";
@@ -56,8 +56,9 @@ export default class App extends Component {
       this.state.categories[this.state.selectedCategory]['posts'].forEach((it, k) => {
         const post = this.state.posts[it]
         if (post)
-          list.push(<Link key={it} activeClassName="blog-item-selected"
-            href={"/" + it} className="blog-item pure-g">
+          list.push(<Link key={it}
+            className={useRoute("/" + it)[0]? "blog-item pure-g blog-item-selected" : "blog-item pure-g "} 
+            href={"/" + it} >
             <div className="pure-u">
               <img
                 width="64"
@@ -72,7 +73,7 @@ export default class App extends Component {
               <h5 className="blog-name">{new Date(post.date).toDateString()}</h5>
               <h4 className="blog-subject">{post.title}</h4>
             </div>
-          </Link>)
+          </Link>)        
       });
     }
     return list;
