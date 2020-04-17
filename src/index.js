@@ -1,7 +1,6 @@
 import { Component } from "preact";
-import { Router } from 'preact-router';
 import Post from "./components/Post";
-import { Link } from 'preact-router/match';
+import { Link, Route } from "wouter";
 
 import "purecss/build/pure-min.css";
 import "./css/style.css";
@@ -131,12 +130,15 @@ export default class App extends Component {
               this.getPosts()
             }
           </div>
-          <Router onChange={this.handleRoute}>
+        
+          <Route path="/">
             <Post path="/" api={API} root={this.root} />
-            <Post path="/:slug" api={API}
+          </Route>
+          <Route path="/:slug">
+            {params => <Post slug={params.slug} api={API}
               selectCategory={this.selectCategory}
-              selectPost={this.selectPost} />
-          </Router>
+              selectPost={this.selectPost} /> }
+          </Route>
         </div>
       </div>);
   }
