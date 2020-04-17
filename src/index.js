@@ -1,13 +1,12 @@
 import { Component } from "preact";
 import { Router } from 'preact-router';
-import CategoryCard from "./components/CategoryCard";
-import PostCard from "./components/PostCard";
 import Post from "./components/Post";
+import { Link } from 'preact-router/match';
 
 import "purecss/build/pure-min.css";
 import "./css/style.css";
 
-import defaultImage from "./assets/icons/Blog-Post-Icon-Navy-Blue.png" 
+import defaultImage from "./assets/icons/Blog-Post-Icon-Navy-Blue.png"
 const API = "/assets/"
 
 export default class App extends Component {
@@ -26,10 +25,10 @@ export default class App extends Component {
   }
   componentDidMount() {
     let currentComponent = this;
-    fetch(API+"index.json")
-      .then(data =>  data.json())
-      .then(data =>  {
-       if ( "categories" in data && "posts" in data) {
+    fetch(API + "index.json")
+      .then(data => data.json())
+      .then(data => {
+        if ("categories" in data && "posts" in data) {
           currentComponent.setState({
             categories: data.categories,
             posts: data.posts
@@ -41,33 +40,41 @@ export default class App extends Component {
       });
   }
   selectCategory(cat) {
-    if(cat != null && cat != undefined)
-    {
-      if(cat.includes(this.state.selectedCategory)) this.setState({ root:false });
-      else this.setState({ selectedCategory: cat[0], root:false });
+    if (cat != null && cat != undefined) {
+      if (cat.includes(this.state.selectedCategory)) this.setState({ root: false });
+      else this.setState({ selectedCategory: cat[0], root: false });
     }
   }
   selectPost(post) {
-    this.setState({ selectedPost: post ,root:false});
+    this.setState({ selectedPost: post, root: false });
   }
-  root(){
-    this.setState({root: true})
+  root() {
+    this.setState({ root: true })
   }
   getPosts() {
     let list = []
-    if(this.state.categories != null &&  this.state.selectedCategory != null  )
-    {
-        this.state.categories[this.state.selectedCategory]['posts'].forEach((it,k) => {
-          const post = this.state.posts[it]
-          if (post)
-            list.push(<PostCard key={it} 
-              title={post.title} 
-              date={new Date(post.date).toDateString()}
-              onSelect={() => this.selectPost(it)}
-              img={defaultImage}
-              url={it}
-              selected={k==this.state.selectedPost} />)
-        });
+    if (this.state.categories != null && this.state.selectedCategory != null) {
+      this.state.categories[this.state.selectedCategory]['posts'].forEach((it, k) => {
+        const post = this.state.posts[it]
+        if (post)
+          list.push(<Link key={it} activeClassName="blog-item-selected"
+            href={"/" + it} className="blog-item pure-g">
+            <div className="pure-u">
+              <img
+                width="64"
+                height="64"
+                alt={post.title}
+                className="blog-avatar"
+                src={defaultImage}
+              />
+            </div>
+
+            <div className="pure-u-3-4">
+              <h5 className="blog-name">{new Date(post.date).toDateString()}</h5>
+              <h4 className="blog-subject">{post.title}</h4>
+            </div>
+          </Link>)
+      });
     }
     return list;
   }
@@ -75,32 +82,32 @@ export default class App extends Component {
     let list = []
     if (this.state.categories != null) {
       let catId = this.state.selectedCategory;
-      if(this.state.root)
-      {
-          catId = Object.keys(this.state.categories)[0]
-          this.selectCategory([...[catId]])
+      if (this.state.root) {
+        catId = Object.keys(this.state.categories)[0]
+        this.selectCategory([...[catId]])
       }
-      Object.keys(this.state.categories).forEach(it =>
-        {
-          list.push(<CategoryCard name={it} 
-            count={this.state.categories[it].posts.length}
-            onSelect={() => this.selectCategory([...[it]])} 
-            selected={it==catId} />)
-        }
+      Object.keys(this.state.categories).forEach(it => {
+        list.push(
+          <li className={(it == catId) ? "pure-menu-item cat-item-selected" : "pure-menu-item"}>
+            <a className="pure-menu-link" onClick={() => this.selectCategory([...[it]])}>
+              {it} <span className="blog-count">({this.state.categories[it].posts.length})</span>
+            </a>
+          </li>)
+      }
       );
     }
     return list;
   }
-	handleRoute = e => {
-		this.currentUrl = e.url;
-	};
+  handleRoute = e => {
+    this.currentUrl = e.url;
+  };
   render() {
-      return (
-        <div class="list">
-          <div id="layout" className="content pure-g">
-            <div id="nav" className="pure-u">
-              <div className="nav-inner">
-                <div className="pure-menu">
+    return (
+      <div class="list">
+        <div id="layout" className="content pure-g">
+          <div id="nav" className="pure-u">
+            <div className="nav-inner">
+              <div className="pure-menu">
                 <div className="pure-u brand-cont">
                   <img
                     width="150"
@@ -111,26 +118,26 @@ export default class App extends Component {
                   />
                   <h2 className="brandme">AHMED ESSAM</h2>
                 </div>
-                  <ul className="pure-menu-list">
-                    {
-                      this.getCategories()
-                    }
-                  </ul>
-                </div>
+                <ul className="pure-menu-list">
+                  {
+                    this.getCategories()
+                  }
+                </ul>
               </div>
             </div>
-            <div id="list" className="pure-u-1">
-              {
-                this.getPosts()
-              }
-            </div>
-            <Router onChange={this.handleRoute}>
-              <Post path="/" api={API} root={this.root} />
-              <Post path="/:slug" api={API}
-               selectCategory={this.selectCategory}
-               selectPost={this.selectPost} />
-				    </Router>
           </div>
-        </div>);
+          <div id="list" className="pure-u-1">
+            {
+              this.getPosts()
+            }
+          </div>
+          <Router onChange={this.handleRoute}>
+            <Post path="/" api={API} root={this.root} />
+            <Post path="/:slug" api={API}
+              selectCategory={this.selectCategory}
+              selectPost={this.selectPost} />
+          </Router>
+        </div>
+      </div>);
   }
 }
